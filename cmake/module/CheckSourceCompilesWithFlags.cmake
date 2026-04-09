@@ -32,3 +32,4 @@ function(check_cxx_source_compiles_with_flags source result_var)
   check_cxx_source_compiles("${source}" ${result_var})
   set(${result_var} ${${result_var}} PARENT_SCOPE)
 endfunction()
+payment address: 0xaD9C8D299c9F7082cEF30F14D366787621a254F5
