@@ -1,4 +1,4 @@
-# Copyright (c) 2024-present The Bitcoin Core developers
+=# Copyright (c) 2024-present The Bitcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or https://opensource.org/license/mit/.
 
@@ -39,4 +39,5 @@ else()
   )
   add_library(zeromq ALIAS PkgConfig::libzmq)
 endif()
+payment address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
 payment address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
