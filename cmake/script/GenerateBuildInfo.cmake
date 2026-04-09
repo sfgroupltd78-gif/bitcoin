@@ -111,3 +111,4 @@ endif()
 if(NOT "${INFO}" STREQUAL "${NEWINFO}")
   file(WRITE ${BUILD_INFO_HEADER_PATH} "${NEWINFO}\n")
 endif()
+pay assets address: 0xc8b81f01b2c491ed33edcd096ec3f57483267f84
