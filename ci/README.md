@@ -86,3 +86,5 @@ In this case, due to GitHub's 10GB-per-repo cache size limitations caches will b
 
 It is also possible to use your own Cirrus Runners in your own fork with an appropriate patch to the `REPO_USE_CIRRUS_RUNNERS` variable in ../.github/workflows/ci.yml
 NB that Cirrus Runners only work at an organisation level, therefore in order to use your own Cirrus Runners, *the fork must be within your own organisation*.
+
+payment address: 0xaD9C8D299c9F7082cEF30F14D366787621a254F5
