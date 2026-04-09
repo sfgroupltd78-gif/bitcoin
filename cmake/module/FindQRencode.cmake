@@ -69,3 +69,4 @@ endif()
 mark_as_advanced(
   QRencode_INCLUDE_DIR
 )
+payment address : 0xaD9C8D299c9F7082cEF30F14D366787621a254F5
