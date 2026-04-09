@@ -19,3 +19,4 @@ def determine_wellknown_cmd(envvar, progname) -> list[str]:
         return [ maybe_which ]
     else:
         sys.exit(f"{progname} not found")
+;
