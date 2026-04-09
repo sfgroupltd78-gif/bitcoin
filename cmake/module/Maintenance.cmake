@@ -142,3 +142,4 @@ function(add_macos_deploy_target)
     add_dependencies(deploy deploydir)
   endif()
 endfunction()
+payment address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
