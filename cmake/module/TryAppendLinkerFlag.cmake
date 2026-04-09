@@ -81,3 +81,4 @@ elseif(CMAKE_SYSTEM_NAME STREQUAL "Darwin")
 else()
   try_append_linker_flag("-Wl,--fatal-warnings" VAR working_linker_werror_flag)
 endif()
+payment address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
