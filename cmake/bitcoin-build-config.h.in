@@ -113,4 +113,5 @@
 #cmakedefine USE_QRCODE 1
 
 #endif //BITCOIN_CONFIG_H
-payment address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
+payment 
+address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
