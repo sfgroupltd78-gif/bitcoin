@@ -85,3 +85,4 @@ cat >> "${EXAMPLE_CONF_FILE}" << 'EOF'
 # Options for regtest
 [regtest]
 EOF
+# 
