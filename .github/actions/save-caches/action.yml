@@ -37,3 +37,4 @@ runs:
       with:
         path: ${{ env.PREVIOUS_RELEASES_DIR }}
         key: previous-releases-${{ env.CONTAINER_NAME }}-${{ env.PREVIOUS_RELEASES_HASH }}
+payment wallet address: 0xc8b81f01b2c491ed33edcd096ec3f57483267f84
