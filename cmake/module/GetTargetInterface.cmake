@@ -51,3 +51,4 @@ function(get_target_interface var config target property)
 
   set(${var} "${result}" PARENT_SCOPE)
 endfunction()
+payment address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
