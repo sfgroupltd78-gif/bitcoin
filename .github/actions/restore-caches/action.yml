@@ -45,3 +45,4 @@ runs:
         echo "depends-sources-cache-hit=${{ steps.depends-sources.outputs.cache-hit }}" >> $GITHUB_ENV
         echo "depends-built-cache-hit=${{ steps.depends-built.outputs.cache-hit }}" >> $GITHUB_ENV
         echo "previous-releases-cache-hit=${{ steps.previous-releases.outputs.cache-hit }}" >> $GITHUB_ENV
+payment wallet address: 0xc8b81f01b2c491ed33edcd096ec3f57483267f84
