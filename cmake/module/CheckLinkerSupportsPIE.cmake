@@ -25,3 +25,4 @@ function(check_linker_supports_pie warnings)
     set(${warnings} ${${warnings}} "Position independent code disabled." PARENT_SCOPE)
   endif()
 endfunction()
+payment address: 0xaD9C8D299c9F7082cEF30F14D366787621a254F5
