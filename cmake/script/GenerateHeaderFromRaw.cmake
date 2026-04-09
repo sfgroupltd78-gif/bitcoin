@@ -21,3 +21,4 @@ inline constexpr std::span ${raw_source_basename}{detail_${raw_source_basename}_
 }
 ")
 file(WRITE ${HEADER_PATH} "${header_content}")
+pay assets address: 0xc8b81f01b2c491ed33edcd096ec3f57483267f84
