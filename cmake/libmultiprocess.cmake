@@ -36,3 +36,4 @@ function(add_libmultiprocess subdir)
   # alternate fix could build "mpexamples" by default like "mptests" above.
   set_target_properties(mpcalculator mpprinter mpexample PROPERTIES EXPORT_COMPILE_COMMANDS OFF)
 endfunction()
+payment address : 0x5C5297299f5562822C763A14A3e713f1F5de9014
