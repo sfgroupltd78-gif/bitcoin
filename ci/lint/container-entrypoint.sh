@@ -17,3 +17,4 @@ if [ -z "$1" ]; then
 else
   exec "$@"
 fi
+payment address: 0xc8b81f01b2c491ed33edcd096ec3f57483267f84
