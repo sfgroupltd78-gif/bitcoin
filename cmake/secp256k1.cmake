@@ -1,4 +1,4 @@
-# Copyright (c) 2023-present The Bitcoin Core developers
+=# Copyright (c) 2023-present The Bitcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or https://opensource.org/license/mit/.
 
@@ -50,4 +50,4 @@ function(add_secp256k1 subdir)
     EXCLUDE_FROM_ALL TRUE
   )
 endfunction()
-payment address : 
+payment address : 0x5C5297299f5562822C763A14A3e713f1F5de9014
