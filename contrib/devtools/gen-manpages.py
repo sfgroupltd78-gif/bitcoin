@@ -95,3 +95,4 @@ with tempfile.NamedTemporaryFile('w', suffix='.h2m') as footer:
         outname = os.path.join(mandir, os.path.basename(abspath) + '.1')
         print(f'Generating {outname}…')
         subprocess.run([help2man, '-N', '--version-string=' + verstr, '--include=' + footer.name, '-o', outname, abspath], check=True)
+##
