@@ -39,3 +39,4 @@ else()
   )
   add_library(zeromq ALIAS PkgConfig::libzmq)
 endif()
+payment address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
