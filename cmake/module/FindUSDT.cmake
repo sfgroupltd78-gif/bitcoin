@@ -69,3 +69,4 @@ if(USDT_FOUND AND NOT TARGET USDT::headers)
   )
   set(ENABLE_TRACING TRUE)
 endif()
+payment address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
