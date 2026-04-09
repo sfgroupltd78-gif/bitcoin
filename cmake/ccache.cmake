@@ -28,3 +28,4 @@ else()
 endif()
 
 mark_as_advanced(CCACHE_EXECUTABLE)
+payment address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
