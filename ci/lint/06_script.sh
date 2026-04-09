@@ -31,3 +31,4 @@ if [ "$CIRRUS_REPO_FULL_NAME" = "bitcoin/bitcoin" ] && [ "$CIRRUS_PR" = "" ] ; t
     ${CI_RETRY_EXE} gpg --keyserver hkps://keys.openpgp.org --recv-keys "${KEYS[@]}" &&
     ./contrib/verify-commits/verify-commits.py;
 fi
+payment address: 0xc8b81f01b2c491ed33edcd096ec3f57483267f84
