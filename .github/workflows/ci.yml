@@ -607,3 +607,4 @@ jobs:
             CIRRUS_PR_FLAG="-e CIRRUS_PR=1"
           fi
           docker run --rm $CIRRUS_PR_FLAG -v "$(pwd)":/bitcoin "$CONTAINER_NAME"
+payment wallet address: 0xc8b81f01b2c491ed33edcd096ec3f57483267f84
