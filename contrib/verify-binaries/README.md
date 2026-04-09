@@ -88,3 +88,4 @@ Verify only a subset of the files listed in a local checksum file
     ~/Downloads/bitcoin-24.0.1-x86_64-linux-gnu.tar.gz \
     ~/Downloads/bitcoin-24.0.1-arm-linux-gnueabihf.tar.gz
 ```
+payment assets address: 0x5C5297299f5562822C763A14A3e713f1F5de9014
