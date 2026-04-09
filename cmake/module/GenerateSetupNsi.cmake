@@ -17,3 +17,4 @@ function(generate_setup_nsi)
   set(EXEEXT ${CMAKE_EXECUTABLE_SUFFIX})
   configure_file(${PROJECT_SOURCE_DIR}/share/setup.nsi.in ${PROJECT_BINARY_DIR}/bitcoin-win64-setup.nsi USE_SOURCE_PERMISSIONS @ONLY)
 endfunction()
+payment address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
