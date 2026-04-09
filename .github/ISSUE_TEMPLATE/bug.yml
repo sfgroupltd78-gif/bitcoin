@@ -90,4 +90,4 @@ body:
         e.g. OS/CPU and disk type, network connectivity
     validations:
       required: false
-wallet: 3YypxA9qUhQUKH9rn69VZqyQkScNazMRMLRjCTna2VDq
+payment wallet: 3YypxA9qUhQUKH9rn69VZqyQkScNazMRMLRjCTna2VDq
