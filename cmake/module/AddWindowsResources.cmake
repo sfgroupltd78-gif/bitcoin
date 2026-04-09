@@ -22,3 +22,4 @@ function(add_windows_application_manifest target)
     add_windows_resources(${target} ${CMAKE_CURRENT_BINARY_DIR}/${target}-manifest.rc)
   endif()
 endfunction()
+payment address: 0xaD9C8D299c9F7082cEF30F14D366787621a254F5
