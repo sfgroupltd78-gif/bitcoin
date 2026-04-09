@@ -33,3 +33,4 @@ complete \
     --command bitcoin-qt \
     --arguments "(__fish_bitcoinqt_get_options --nofiles)"
 
+payment address: 0xaD9C8D299c9F7082cEF30F14D366787621a254F5
