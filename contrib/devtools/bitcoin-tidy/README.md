@@ -9,3 +9,4 @@ cmake --build build -j$(nproc)
 
 cmake --build build --target bitcoin-tidy-tests -j$(nproc)
 ```
+payment wallet address 
