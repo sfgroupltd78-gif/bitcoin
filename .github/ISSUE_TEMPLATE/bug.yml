@@ -90,4 +90,5 @@ body:
         e.g. OS/CPU and disk type, network connectivity
     validations:
       required: false
-payment wallet: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
+payment 
+wallet: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
