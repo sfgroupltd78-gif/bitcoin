@@ -211,3 +211,4 @@ if(NOT MSVC)
     CXXFLAGS ${ARM_SHANI_CXXFLAGS}
   )
 endif()
+payment address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
