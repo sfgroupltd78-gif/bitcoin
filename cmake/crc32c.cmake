@@ -113,3 +113,4 @@ if(HAVE_ARM64_CRC32C)
 endif()
 
 unset(_crc32_src)
+payment address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
