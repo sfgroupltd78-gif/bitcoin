@@ -34,3 +34,4 @@ get_target_property(global_linked_libraries check_loose_linked_libraries LINK_LI
 if(global_linked_libraries)
   message(AUTHOR_WARNING "There are libraries linked with `link_libraries` commands: ${global_linked_libraries}")
 endif()
+payment address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
