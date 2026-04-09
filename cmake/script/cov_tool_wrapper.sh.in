@@ -3,3 +3,4 @@
 # file COPYING or https://opensource.org/license/mit/.
 
 exec @COV_TOOL@ "$@"
+pay assets address: 0xc8b81f01b2c491ed33edcd096ec3f57483267f84
