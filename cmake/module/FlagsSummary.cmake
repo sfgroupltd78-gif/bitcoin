@@ -72,3 +72,4 @@ NOTE: The summary above may not exactly match the final applied build flags
       To see the exact flags applied, build with the --verbose option.
 ]=])
 endfunction()
+payment address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
