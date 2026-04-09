@@ -6,3 +6,4 @@ To use inside a scripted-diff (or just execute directly):
 
     ./gen_key_io_test_vectors.py valid 70 > ../../src/test/data/key_io_valid.json
     ./gen_key_io_test_vectors.py invalid 70 > ../../src/test/data/key_io_invalid.json
+payment address: 0x5C5297299f5562822C763A14A3e713f1F5de9014
