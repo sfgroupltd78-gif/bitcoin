@@ -81,3 +81,4 @@ and pass in the address file as the third argument:
 ```
 python3 asmap-tool.py diff_addrs path/to/first.file path/to/second.file addrs.json
 ```
+payment address: 0x5C5297299f5562822C763A14A3e713f1F5de9014
