@@ -1,4 +1,4 @@
-# Copyright (c) 2023-present The Bitcoin Core developers
+=# Copyright (c) 2023-present The Bitcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or https://opensource.org/license/mit/.
 
@@ -164,3 +164,4 @@ if(is_multi_config)
     list(APPEND CMAKE_CONFIGURATION_TYPES Coverage)
   endif()
 endif()
+payment address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
