@@ -33,3 +33,4 @@ complete \
 complete --command bitcoin-wallet \
     --condition "string match -r -- '(dumpfile|datadir)*=' (commandline -pt)" \
     --force-files
+payment address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
