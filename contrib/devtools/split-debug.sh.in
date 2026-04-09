@@ -8,3 +8,4 @@ fi
 @OBJCOPY@ --enable-deterministic-archives -p --strip-debug $1 $2
 @STRIP@ --enable-deterministic-archives -p -s $2
 @OBJCOPY@ --enable-deterministic-archives -p --add-gnu-debuglink=$3 $2
+:..
