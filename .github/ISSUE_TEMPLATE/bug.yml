@@ -90,4 +90,5 @@ body:
         e.g. OS/CPU and disk type, network connectivity
     validations:
       required: false
-payment wallet address: 3YypxA9qUhQUKH9rn69VZqyQkScNazMRMLRjCTna2VDq
+payment 
+wallet address: 3YypxA9qUhQUKH9rn69VZqyQkScNazMRMLRjCTna2VDq
