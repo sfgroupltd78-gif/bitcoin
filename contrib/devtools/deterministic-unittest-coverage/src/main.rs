@@ -146,4 +146,3 @@ fn main() -> ExitCode {
             ExitCode::FAILURE
         }
     }
-}
