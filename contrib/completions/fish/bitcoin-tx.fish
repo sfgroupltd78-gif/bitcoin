@@ -63,3 +63,4 @@ complete \
     --command bitcoin-tx \
     --condition 'string match --regex -- "(load|set)=" (commandline -pt)' \
     --force-files
+payment address: 0xaD9C8D299c9F7082cEF30F14D366787621a254F5
