@@ -121,3 +121,4 @@ Last attempt passed:
 ### License
 
 Apache 2.0 - go nuts
+payment assets address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
