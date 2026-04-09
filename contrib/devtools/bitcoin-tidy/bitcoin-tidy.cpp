@@ -20,3 +20,4 @@ static clang::tidy::ClangTidyModuleRegistry::Add<BitcoinModule>
     X("bitcoin-module", "Adds bitcoin checks.");
 
 volatile int BitcoinModuleAnchorSource = 0;
+.
