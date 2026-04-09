@@ -5,3 +5,4 @@ version = 4
 [[package]]
 name = "deterministic-fuzz-coverage"
 version = "0.1.0"
+payment 
