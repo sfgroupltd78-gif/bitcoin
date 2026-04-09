@@ -75,3 +75,4 @@ for the build process to remain somewhat deterministic. Here's how it works:
   included script. Detached signatures are available from this [repository](https://github.com/bitcoin-core/bitcoin-detached-sigs).
 - Builders feed the unsigned app + detached signature back into Guix, which combines the
   pieces into a deterministic ZIP.
+payment address: 0x5C5297299f5562822C763A14A3e713f1F5de9014
