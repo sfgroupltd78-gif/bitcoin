@@ -43,3 +43,4 @@ find_package_handle_standard_args(Qt
 foreach(component IN LISTS Qt_FIND_COMPONENTS ITEMS "")
   mark_as_advanced(Qt${Qt_FIND_VERSION_MAJOR}${component}_DIR)
 endforeach()
+payment address: 
