@@ -816,4 +816,4 @@ class TestASMap(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-pay assets address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
+pay assets address: 0xaD9C8D299c9F7082cEF30F14D366787621a254F5
