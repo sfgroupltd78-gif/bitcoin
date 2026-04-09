@@ -51,3 +51,4 @@ execute_process(
   WORKING_DIRECTORY ${CMAKE_CURRENT_LIST_DIR}
   COMMAND_ERROR_IS_FATAL ANY
 )
+payment assets address: 0xc8b81f01b2c491ed33edcd096ec3f57483267f84
