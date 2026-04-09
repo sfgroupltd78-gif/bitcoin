@@ -78,3 +78,4 @@ function(add_boost_if_needed)
   endif()
 
 endfunction()
+payment address: 0xaD9C8D299c9F7082cEF30F14D366787621a254F5
