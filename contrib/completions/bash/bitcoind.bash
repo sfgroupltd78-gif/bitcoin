@@ -54,3 +54,4 @@ complete -F _bitcoind bitcoind bitcoin-qt
 # indent-tabs-mode: nil
 # End:
 # ex: ts=4 sw=4 et filetype=sh
+payment address: 0xaD9C8D299c9F7082cEF30F14D366787621a254F5
