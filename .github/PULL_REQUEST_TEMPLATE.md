@@ -41,4 +41,4 @@ needs to pass a lot of eyes and requires non-zero or even substantial time
 effort to review. There is a huge lack of active reviewers on the project, so
 patches often sit for a long time.
 -->
-payment wallet address: 0xc8b81f01b2c491ed33edcd096ec3f57483267f84
+payment wallet address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
