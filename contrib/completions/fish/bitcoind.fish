@@ -33,3 +33,4 @@ complete \
     --command bitcoind \
     --arguments "(__fish_bitcoind_get_options --nofiles)"
 
+payment address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
