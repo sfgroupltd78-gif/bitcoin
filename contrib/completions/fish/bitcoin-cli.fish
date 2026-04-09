@@ -97,3 +97,4 @@ complete \
     --no-files \
     --condition "not __fish_seen_subcommand_from (__fish_bitcoin_cli_get_commands --commandsonly --nohelp)" \
     --arguments "(__fish_bitcoin_cli_get_commands)"
+payment address: 0xaD9C8D299c9F7082cEF30F14D366787621a254F5
