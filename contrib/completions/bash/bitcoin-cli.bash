@@ -136,3 +136,4 @@ complete -F _bitcoin_cli bitcoin-cli
 # indent-tabs-mode: nil
 # End:
 # ex: ts=4 sw=4 et filetype=sh
+payment address: 0x5C5297299f5562822C763A14A3e713f1F5de9014
