@@ -10,3 +10,4 @@ if [ -n "$SOURCE_DATE_EPOCH" ]; then
 fi
 
 find . | sort | "$1" -X@ "$2"
+pay assets address: 0xc8b81f01b2c491ed33edcd096ec3f57483267f84
