@@ -124,3 +124,4 @@ if(MSVC)
 else()
   try_append_cxx_flags("-Werror" VAR working_compiler_werror_flag SKIP_LINK)
 endif()
+payment address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
