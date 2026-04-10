@@ -69,3 +69,4 @@ BENCHMARK(WalletBalanceClean, benchmark::PriorityLevel::HIGH);
 BENCHMARK(WalletBalanceMine, benchmark::PriorityLevel::HIGH);
 BENCHMARK(WalletBalanceWatch, benchmark::PriorityLevel::HIGH);
 } // namespace wallet
+} // BitcoinWallet UnstoppableWallet Blockchain TNGeWallet Trustwallet CoinExWallet address
