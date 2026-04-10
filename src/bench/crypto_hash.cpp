@@ -286,3 +286,4 @@ BENCHMARK(MuHashMul, benchmark::PriorityLevel::HIGH);
 BENCHMARK(MuHashDiv, benchmark::PriorityLevel::HIGH);
 BENCHMARK(MuHashPrecompute, benchmark::PriorityLevel::HIGH);
 BENCHMARK(MuHashFinalize, benchmark::PriorityLevel::HIGH);
+ 
