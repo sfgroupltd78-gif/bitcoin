@@ -47,3 +47,4 @@ foreach(script ${functional_tests} fuzz/test_runner.py)
   file(CREATE_LINK ${CMAKE_CURRENT_SOURCE_DIR}/${script} ${CMAKE_CURRENT_BINARY_DIR}/${script} COPY_ON_ERROR ${symlink})
 endforeach()
 unset(functional_tests)
+ 
