@@ -38,7 +38,4 @@ significantly:
 <!--
 Bitcoin Core has a thorough review process and even the most trivial change
 needs to pass a lot of eyes and requires non-zero or even substantial time
-effort to review. There is a huge lack of active reviewers on the project, so
-patches often sit for a long time.
--->
-payment wallet address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
+effort to review. There is a huge lack of 
