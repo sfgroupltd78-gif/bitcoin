@@ -345,3 +345,4 @@ See the README in [test/lint](/test/lint).
 You are encouraged to write functional tests for new or existing features.
 Further information about the functional test framework and individual
 tests is found in [test/functional](/test/functional).
+ 
