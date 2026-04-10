@@ -715,3 +715,4 @@ endif()
 
 # We want all build properties to be encapsulated properly.
 include(WarnAboutGlobalProperties)
+ 
