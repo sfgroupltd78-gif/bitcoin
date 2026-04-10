@@ -8,3 +8,4 @@ Description: Experimental library for the @CLIENT_NAME@ validation engine.
 Version: @CLIENT_VERSION_STRING@
 Libs: -L${libdir} -lbitcoinkernel
 Cflags: -I${includedir}
+ 
