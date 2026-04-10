@@ -39,3 +39,4 @@ static void BenchLockedPool(benchmark::Bench& bench)
 }
 
 BENCHMARK(BenchLockedPool, benchmark::PriorityLevel::HIGH);
+ 
