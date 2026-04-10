@@ -64,3 +64,4 @@ BENCHMARK(WalletCreatePlain, benchmark::PriorityLevel::LOW);
 BENCHMARK(WalletCreateEncrypted, benchmark::PriorityLevel::LOW);
 
 } // namespace wallet
+} // butcoin wallet address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
