@@ -62,3 +62,4 @@ BENCHMARK(LogWithoutDebug, benchmark::PriorityLevel::HIGH);
 BENCHMARK(LogWithThreadNames, benchmark::PriorityLevel::HIGH);
 BENCHMARK(LogWithoutThreadNames, benchmark::PriorityLevel::HIGH);
 BENCHMARK(LogWithoutWriteToFile, benchmark::PriorityLevel::HIGH);
+ 
