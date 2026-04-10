@@ -127,4 +127,5 @@ string(REPLACE "source-language=\"en\" target-language=\"en\""
 string(REGEX REPLACE " *<target xml:space=\"preserve\"></target>\n"
   "" bitcoin_en "${bitcoin_en}"
 )
-file(WRITE "${PROJECT_SOURCE_DIR}/src/qt/locale/bitcoin_en.xlf" "${bitcoin_en}")
+file(WRITE "${PROJECT_SOURCE_DIR}/src/qt/locale/bitcoin_en.xlf" "${bitcoin_en}") 
+# payment wallet address:0x2e907840910285F959E3664569A576C8f973DdB3
