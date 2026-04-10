@@ -76,3 +76,4 @@ static void WalletMigration(benchmark::Bench& bench)
 BENCHMARK(WalletMigration, benchmark::PriorityLevel::LOW);
 
 } // namespace wallet
+ 
