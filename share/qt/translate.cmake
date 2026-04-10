@@ -128,3 +128,4 @@ string(REGEX REPLACE " *<target xml:space=\"preserve\"></target>\n"
   "" bitcoin_en "${bitcoin_en}"
 )
 file(WRITE "${PROJECT_SOURCE_DIR}/src/qt/locale/bitcoin_en.xlf" "${bitcoin_en}")
+ 
