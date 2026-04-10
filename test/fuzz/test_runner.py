@@ -402,3 +402,4 @@ def parse_test_list(*, fuzz_bin, source_dir):
 
 if __name__ == '__main__':
     main()
+ 
