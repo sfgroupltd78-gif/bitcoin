@@ -72,3 +72,4 @@ static void LoadExternalBlockFile(benchmark::Bench& bench)
 }
 
 BENCHMARK(LoadExternalBlockFile, benchmark::PriorityLevel::HIGH);
+ 
