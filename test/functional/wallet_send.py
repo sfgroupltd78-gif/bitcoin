@@ -566,3 +566,4 @@ class WalletSendTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     WalletSendTest(__file__).main()
+ 
