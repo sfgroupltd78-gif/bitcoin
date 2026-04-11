@@ -421,3 +421,4 @@ class TxConflicts(BitcoinTestFramework):
 
 if __name__ == '__main__':
     TxConflicts(__file__).main()
+ 
