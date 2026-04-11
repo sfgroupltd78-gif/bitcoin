@@ -243,3 +243,4 @@ class AbandonConflictTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     AbandonConflictTest(__file__).main()
+ 
