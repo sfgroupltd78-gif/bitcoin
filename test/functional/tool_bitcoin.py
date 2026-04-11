@@ -109,3 +109,4 @@ def get_exe_name(version_str):
 
 if __name__ == '__main__':
     ToolBitcoinTest(__file__).main()
+ 
