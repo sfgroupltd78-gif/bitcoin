@@ -48,3 +48,4 @@ class WalletCrossChain(BitcoinTestFramework):
 
 if __name__ == '__main__':
     WalletCrossChain(__file__).main()
+ 
