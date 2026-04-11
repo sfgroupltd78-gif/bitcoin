@@ -28,3 +28,4 @@ if not sys.stdin.isatty():
 args = parser.parse_args()
 
 args.func(args)
+ 
