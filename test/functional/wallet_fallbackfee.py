@@ -30,3 +30,4 @@ class WalletRBFTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     WalletRBFTest(__file__).main()
+ 
