@@ -82,3 +82,4 @@ class TestShell:
 
     def __setattr__(self, name, value):
         return setattr(self.instance, name, value)
+ 
