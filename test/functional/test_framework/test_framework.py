@@ -1028,3 +1028,4 @@ class BitcoinTestFramework(metaclass=BitcoinTestMetaClass):
             return result
         except ImportError:
             self.log.warning("sqlite3 module not available, skipping tests that inspect the database")
+ 
