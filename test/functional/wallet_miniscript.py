@@ -398,3 +398,4 @@ class WalletMiniscriptTest(BitcoinTestFramework):
 
 if __name__ == "__main__":
     WalletMiniscriptTest(__file__).main()
+ 
