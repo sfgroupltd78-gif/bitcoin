@@ -103,3 +103,4 @@ class WalletChangeAddressTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     WalletChangeAddressTest(__file__).main()
+ 
