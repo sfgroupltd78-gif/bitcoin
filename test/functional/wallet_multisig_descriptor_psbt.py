@@ -151,3 +151,4 @@ class WalletMultisigDescriptorPSBTTest(BitcoinTestFramework):
 
 if __name__ == "__main__":
     WalletMultisigDescriptorPSBTTest(__file__).main()
+ 
