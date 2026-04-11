@@ -142,3 +142,4 @@ class RPCWhitelistTest(BitcoinTestFramework):
 
 if __name__ == "__main__":
     RPCWhitelistTest(__file__).main()
+ 
