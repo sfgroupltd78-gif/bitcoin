@@ -75,3 +75,4 @@ class TxPrivacyTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     TxPrivacyTest(__file__).main()
+ 
