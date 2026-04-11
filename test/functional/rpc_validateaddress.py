@@ -206,3 +206,4 @@ class ValidateAddressMainTest(BitcoinTestFramework):
 
 if __name__ == "__main__":
     ValidateAddressMainTest(__file__).main()
+ 
