@@ -201,3 +201,4 @@ class TestFrameworkAEAD(unittest.TestCase):
                 dec_aead.decrypt(b"", None)
             plaintext = dec_aead.decrypt(aad, ciphertext)
             self.assertEqual(plain, plaintext)
+ 
