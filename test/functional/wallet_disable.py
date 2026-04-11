@@ -29,3 +29,4 @@ class DisableWalletTest (BitcoinTestFramework):
 
 if __name__ == '__main__':
     DisableWalletTest(__file__).main()
+ 
