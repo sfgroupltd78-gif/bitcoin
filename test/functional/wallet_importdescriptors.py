@@ -785,3 +785,4 @@ class ImportDescriptorsTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     ImportDescriptorsTest(__file__).main()
+ 
