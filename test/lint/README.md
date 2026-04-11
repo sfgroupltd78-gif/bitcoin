@@ -110,3 +110,4 @@ git remote add --fetch secp256k1 https://github.com/bitcoin-core/secp256k1.git
 lint_ignore_dirs.py
 ===================
 Add list of common directories to ignore when running tests
+ 
