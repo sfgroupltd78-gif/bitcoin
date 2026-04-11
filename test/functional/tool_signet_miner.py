@@ -153,3 +153,4 @@ class SignetMinerTest(BitcoinTestFramework):
 
 if __name__ == "__main__":
     SignetMinerTest(__file__).main()
+ 
