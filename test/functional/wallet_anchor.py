@@ -114,3 +114,4 @@ class WalletAnchorTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     WalletAnchorTest(__file__).main()
+ 
