@@ -77,3 +77,4 @@ inline BSWAP_CONSTEXPR uint64_t internal_bswap_64(uint64_t x)
 }
 
 #endif // BITCOIN_COMPAT_BYTESWAP_H
+ 
