@@ -253,3 +253,4 @@ class FilterTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     FilterTest(__file__).main()
+ 
