@@ -111,3 +111,4 @@ def write_all_rpc_commands(dirname: str, node: AuthServiceProxy) -> bool:
         f.writelines(list(commands))
 
     return True
+ 
