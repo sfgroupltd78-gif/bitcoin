@@ -130,3 +130,4 @@ class WalletMiniscriptDecayingMultisigDescriptorPSBTTest(BitcoinTestFramework):
 
 if __name__ == "__main__":
     WalletMiniscriptDecayingMultisigDescriptorPSBTTest(__file__).main()
+ 
