@@ -47,3 +47,4 @@ class BitcoinChainstateTest(BitcoinTestFramework):
 
 if __name__ == "__main__":
     BitcoinChainstateTest(__file__).main()
+ 
