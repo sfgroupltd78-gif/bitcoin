@@ -55,3 +55,4 @@ class WalletStartupTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     WalletStartupTest(__file__).main()
+ 
