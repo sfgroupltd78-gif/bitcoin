@@ -110,3 +110,4 @@ class SettingsTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     SettingsTest(__file__).main()
+ 
