@@ -1582,3 +1582,4 @@ class WalletMigrationTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     WalletMigrationTest(__file__).main()
+ 
