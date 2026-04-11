@@ -363,3 +363,4 @@ class ListTransactionsTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     ListTransactionsTest(__file__).main()
+ 
