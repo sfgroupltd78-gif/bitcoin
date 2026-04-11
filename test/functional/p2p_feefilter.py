@@ -133,3 +133,4 @@ class FeeFilterTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     FeeFilterTest(__file__).main()
+ 
