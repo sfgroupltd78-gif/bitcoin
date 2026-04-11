@@ -78,3 +78,4 @@ class WalletRescanUnconfirmed(BitcoinTestFramework):
 
 if __name__ == '__main__':
     WalletRescanUnconfirmed(__file__).main()
+ 
