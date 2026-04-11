@@ -165,3 +165,4 @@ class WalletEncryptionTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     WalletEncryptionTest(__file__).main()
+ 
