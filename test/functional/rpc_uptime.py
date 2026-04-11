@@ -33,3 +33,4 @@ class UptimeTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     UptimeTest(__file__).main()
+ 
