@@ -552,3 +552,4 @@ class SendallTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     SendallTest(__file__).main()
+ 
