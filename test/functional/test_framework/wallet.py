@@ -443,3 +443,4 @@ def getnewdestination(address_type='bech32m'):
     else:
         assert False
     return pubkey, scriptpubkey, address
+ 
