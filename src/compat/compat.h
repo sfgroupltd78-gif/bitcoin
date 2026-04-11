@@ -104,3 +104,4 @@ typedef SSIZE_T ssize_t;
 #endif
 
 #endif // BITCOIN_COMPAT_COMPAT_H
+ 
