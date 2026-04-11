@@ -66,3 +66,4 @@ bool StdinReady()
 
 NoechoInst::NoechoInst() { SetStdinEcho(false); }
 NoechoInst::~NoechoInst() { SetStdinEcho(true); }
+ 
