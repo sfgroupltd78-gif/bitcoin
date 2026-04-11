@@ -111,3 +111,4 @@ class MerkleBlockTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     MerkleBlockTest(__file__).main()
+ 
