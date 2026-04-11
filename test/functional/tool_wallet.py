@@ -437,3 +437,4 @@ class ToolWalletTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     ToolWalletTest(__file__).main()
+ 
