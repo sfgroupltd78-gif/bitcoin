@@ -232,3 +232,4 @@ class AssumeutxoTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     AssumeutxoTest(__file__).main()
+ 
