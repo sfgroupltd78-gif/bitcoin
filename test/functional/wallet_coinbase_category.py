@@ -58,3 +58,4 @@ class CoinbaseCategoryTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     CoinbaseCategoryTest(__file__).main()
+ 
