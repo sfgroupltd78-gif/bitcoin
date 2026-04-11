@@ -272,3 +272,4 @@ class WalletDescriptorTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     WalletDescriptorTest(__file__).main()
+ 
