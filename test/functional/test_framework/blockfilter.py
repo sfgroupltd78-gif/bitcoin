@@ -47,3 +47,4 @@ def bip158_relevant_scriptpubkeys(node, block_hash):
             if o['scriptPubKey']['type'] != 'nulldata':
                 spks.add(bytes.fromhex(o['scriptPubKey']['hex']))
     return spks
+ 
