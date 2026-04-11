@@ -53,3 +53,4 @@ class FilelockTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     FilelockTest(__file__).main()
+ 
