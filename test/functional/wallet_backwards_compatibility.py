@@ -437,3 +437,4 @@ class BackwardsCompatibilityTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     BackwardsCompatibilityTest(__file__).main()
+ 
