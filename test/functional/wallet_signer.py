@@ -241,3 +241,4 @@ class WalletSignerTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     WalletSignerTest(__file__).main()
+ 
