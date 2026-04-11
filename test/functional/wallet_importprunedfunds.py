@@ -132,3 +132,4 @@ class ImportPrunedFundsTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     ImportPrunedFundsTest(__file__).main()
+ 
