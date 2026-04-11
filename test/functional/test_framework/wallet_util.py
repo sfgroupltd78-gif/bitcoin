@@ -148,3 +148,4 @@ class TestFrameworkWalletUtil(unittest.TestCase):
         # large scriptSig, 3 large witness stack items
         self.assertEqual(calculate_input_weight(scriptSig_large, ["00"*253]*3),
                          ((SKELETON_BYTES + LARGE_LEN_BYTES + 253) * WITNESS_SCALE_FACTOR) + SMALL_LEN_BYTES + 3 * LARGE_LEN_BYTES + 3*253)
+ 
