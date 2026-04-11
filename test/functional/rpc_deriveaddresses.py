@@ -65,3 +65,4 @@ class DeriveaddressesTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     DeriveaddressesTest(__file__).main()
+ 
