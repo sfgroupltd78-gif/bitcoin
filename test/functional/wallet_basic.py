@@ -698,3 +698,4 @@ class WalletTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     WalletTest(__file__).main()
+ 
