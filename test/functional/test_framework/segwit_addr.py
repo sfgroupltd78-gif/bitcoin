@@ -139,3 +139,4 @@ class TestFrameworkScript(unittest.TestCase):
         test_python_bech32('bcrt1qft5p2uhsdcdc3l2ua4ap5qqfg4pjaqlp250x7us7a8qqhrxrxfsqseac85')
         # P2TR
         test_python_bech32('bcrt1p0xlxvlhemja6c4dqv22uapctqupfhlxm9h8z3k2e72q4k9hcz7vqc8gma6')
+ 
