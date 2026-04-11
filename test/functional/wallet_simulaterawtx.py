@@ -128,3 +128,4 @@ class SimulateTxTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     SimulateTxTest(__file__).main()
+ 
