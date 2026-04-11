@@ -587,3 +587,4 @@ class WalletV3Test(BitcoinTestFramework):
 
 if __name__ == '__main__':
     WalletV3Test(__file__).main()
+ 
