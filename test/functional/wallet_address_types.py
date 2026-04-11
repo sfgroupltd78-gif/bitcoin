@@ -364,3 +364,4 @@ class AddressTypeTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     AddressTypeTest(__file__).main()
+ 
