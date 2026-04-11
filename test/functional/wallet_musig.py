@@ -240,3 +240,4 @@ class WalletMuSigTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     WalletMuSigTest(__file__).main()
+ 
