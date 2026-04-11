@@ -43,3 +43,4 @@ class SignMessagesWithAddressTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     SignMessagesWithAddressTest(__file__).main()
+ 
