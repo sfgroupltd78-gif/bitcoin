@@ -503,3 +503,4 @@ class UnconfirmedInputTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     UnconfirmedInputTest(__file__).main()
+ 
