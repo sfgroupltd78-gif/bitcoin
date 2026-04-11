@@ -173,3 +173,4 @@ class AddressInputTypeGrouping(BitcoinTestFramework):
 
 if __name__ == '__main__':
     AddressInputTypeGrouping(__file__).main()
+ 
