@@ -160,3 +160,4 @@ class TestFrameworkChacha(unittest.TestCase):
 
             ciphertext = fsc20.crypt(plaintext)
             self.assertEqual(hex_ciphertext_after_rotation, ciphertext.hex())
+ 
