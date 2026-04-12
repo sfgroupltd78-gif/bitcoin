@@ -102,3 +102,4 @@ class TestFrameworkPoly1305(unittest.TestCase):
             tag = bytes.fromhex(hex_tag)
             comp_tag = Poly1305(key).tag(message)
             self.assertEqual(tag, comp_tag)
+ 
