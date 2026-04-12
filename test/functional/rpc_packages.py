@@ -549,3 +549,4 @@ class RPCPackagesTest(BitcoinTestFramework):
 
 if __name__ == "__main__":
     RPCPackagesTest(__file__).main()
+ 
