@@ -62,3 +62,4 @@ class CoinStatsIndexTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     CoinStatsIndexTest(__file__).main()
+ 
