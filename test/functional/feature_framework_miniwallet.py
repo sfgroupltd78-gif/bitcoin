@@ -66,3 +66,4 @@ class FeatureFrameworkMiniWalletTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     FeatureFrameworkMiniWalletTest(__file__).main()
+ 
