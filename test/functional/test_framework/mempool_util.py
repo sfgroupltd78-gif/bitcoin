@@ -129,3 +129,4 @@ def create_large_orphan():
     tx.wit.vtxinwit[0].scriptWitness.stack = [CScript(b'X' * 390000)]
     tx.vout = [CTxOut(100, CScript([OP_RETURN, b'a' * 20]))]
     return tx
+ 
