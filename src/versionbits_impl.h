@@ -83,3 +83,4 @@ public:
 };
 
 #endif // BITCOIN_VERSIONBITS_IMPL_H
+ 
