@@ -61,3 +61,4 @@ void CWalletTx::CopyFrom(const CWalletTx& _tx)
     *this = _tx;
 }
 } // namespace wallet
+ 
