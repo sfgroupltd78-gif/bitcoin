@@ -62,3 +62,4 @@ class GetBlockFilterTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     GetBlockFilterTest(__file__).main()
+ 
