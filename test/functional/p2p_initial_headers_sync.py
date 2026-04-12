@@ -184,3 +184,4 @@ class HeadersSyncTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     HeadersSyncTest(__file__).main()
+ 
