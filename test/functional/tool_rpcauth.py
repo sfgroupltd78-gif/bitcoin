@@ -55,3 +55,4 @@ class RpcAuthTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     RpcAuthTest(__file__).main()
+ 
