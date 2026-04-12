@@ -234,3 +234,4 @@ class IPCInterfaceTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     IPCInterfaceTest(__file__).main()
+ 
