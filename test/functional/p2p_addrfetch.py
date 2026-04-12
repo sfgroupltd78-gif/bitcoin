@@ -84,3 +84,4 @@ class P2PAddrFetch(BitcoinTestFramework):
 
 if __name__ == '__main__':
     P2PAddrFetch(__file__).main()
+ 
