@@ -217,3 +217,4 @@ class TestFrameworkScriptUtil(unittest.TestCase):
         self.assertEqual(len(max_ms_script), 2 + 20*34 + 2 + 1)
         self.assertTrue(max_ms_script.startswith(bytes([1, 19])))  # using OP_PUSH1
         self.assertTrue(max_ms_script.endswith(bytes([1, 20, OP_CHECKMULTISIG])))
+ 
