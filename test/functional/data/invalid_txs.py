@@ -290,3 +290,4 @@ DisabledOpcodeTemplates = [getDisabledOpcodeTemplate(opcode) for opcode in [
 def iter_all_templates():
     """Iterate through all bad transaction template types."""
     return BadTxTemplate.__subclasses__()
+ 
