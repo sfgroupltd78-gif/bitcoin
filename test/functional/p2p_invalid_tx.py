@@ -209,3 +209,4 @@ class InvalidTxRequestTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     InvalidTxRequestTest(__file__).main()
+ 
