@@ -996,3 +996,4 @@ class TestNodeCLI():
             return json.loads(cli_stdout, parse_float=decimal.Decimal)
         except (json.JSONDecodeError, decimal.InvalidOperation):
             return cli_stdout.rstrip("\n")
+ 
