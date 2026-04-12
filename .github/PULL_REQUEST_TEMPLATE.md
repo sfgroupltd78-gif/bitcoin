@@ -41,5 +41,10 @@ needs to pass a lot of eyes and requires non-zero or even substantial time
 effort to review. There is a huge lack of active reviewers on the project, so
 patches often sit for a long time.
 -->
-payment wallet address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
- payment for wallet address:0x2e907840910285F959E3664569A576C8f973DdB3
+payment network for wallet: 
+bitcoin address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
+Ethereum address: 0x2e907840910285F959E3664569A576C8f973DdB3
+BNB chain address: 0x2e907840910285F959E3664569A576C8f973DdB3
+USDT address: 0xaD9C8D299c9F7082cEF30F14D366787621a254F5
+CoinEx wallet address: qrqghy3sltp9yrqkjtjlcjv96xrsnl7nxs7cv282yt
+solana address: tUhjxdfyxzi92NNsAJn5zdWCvo26cU7AiDbT75Rg1qv
