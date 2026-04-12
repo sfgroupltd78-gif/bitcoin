@@ -161,3 +161,4 @@ class TestFrameworkEllSwift(unittest.TestCase):
                 x = xswiftec(u, t)
                 self.assertEqual(x, expected_x)
                 self.assertTrue(GE.is_valid_x(x))
+ 
