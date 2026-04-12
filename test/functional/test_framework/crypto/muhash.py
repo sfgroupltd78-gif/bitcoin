@@ -53,3 +53,4 @@ class TestFrameworkMuhash(unittest.TestCase):
         finalized = muhash.digest()
         # This mirrors the result in the C++ MuHash3072 unit test
         self.assertEqual(finalized[::-1].hex(), "10d312b100cbd32ada024a6646e40d3482fcff103668d2625f10002a607d5863")
+ 
