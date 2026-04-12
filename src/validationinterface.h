@@ -229,3 +229,4 @@ public:
 };
 
 #endif // BITCOIN_VALIDATIONINTERFACE_H
+ 
