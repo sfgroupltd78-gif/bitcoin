@@ -78,3 +78,4 @@ class MempoolPackagesTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     MempoolPackagesTest(__file__).main()
+ 
