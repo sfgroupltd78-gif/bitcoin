@@ -474,3 +474,4 @@ class RESTTest (BitcoinTestFramework):
 
 if __name__ == '__main__':
     RESTTest(__file__).main()
+ 
