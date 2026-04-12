@@ -343,3 +343,4 @@ class TestFrameworkKey(unittest.TestCase):
                     self.assertEqual(result, result_actual, "BIP340 test vector %i (%s): verification succeeded unexpectedly" % (i, comment))
                 num_tests += 1
         self.assertTrue(num_tests >= 15) # expect at least 15 test vectors
+ 
