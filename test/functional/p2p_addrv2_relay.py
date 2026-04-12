@@ -111,3 +111,4 @@ class AddrTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     AddrTest(__file__).main()
+ 
