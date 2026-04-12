@@ -73,3 +73,4 @@ class BindPortExternalIPTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     BindPortExternalIPTest(__file__).main()
+ 
