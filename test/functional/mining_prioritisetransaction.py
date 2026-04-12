@@ -306,3 +306,4 @@ class PrioritiseTransactionTest(BitcoinTestFramework):
 
 if __name__ == '__main__':
     PrioritiseTransactionTest(__file__).main()
+ 
