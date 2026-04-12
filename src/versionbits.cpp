@@ -343,3 +343,4 @@ std::vector<std::pair<int, bool>> VersionBitsCache::CheckUnknownActivations(cons
     }
     return result;
 }
+ 
