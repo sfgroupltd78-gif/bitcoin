@@ -59,3 +59,4 @@ Skip building/installing unneeded tools:
  if (QT_FEATURE_commandlineparser)
      add_subdirectory(qtpaths)
  endif()
+ 
