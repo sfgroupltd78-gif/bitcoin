@@ -19,3 +19,4 @@ Can be dropped when using python-scikit-build-core >= 0.10.x
          "cmake.args": [
              *config.cmake_generator,
              *config.get_cmake_args(is_editable),
+ 
