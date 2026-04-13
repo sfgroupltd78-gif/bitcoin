@@ -22,3 +22,4 @@ the SOURCE_DATE_EPOCH variable set, e.g., for Guix builds.
          lib.writeNumber8(lastmod);
          if (text || pass1)
              lib.writeChar('\n');
+ 
