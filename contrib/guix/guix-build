@@ -470,5 +470,4 @@ EOF
                                         DIST_ARCHIVE_BASE=/outdir-base/dist-archive \
                                       bash -c "cd /bitcoin && bash contrib/guix/libexec/build.sh"
     )
-
-done
+ 
