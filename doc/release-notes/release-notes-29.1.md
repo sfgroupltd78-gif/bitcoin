@@ -223,8 +223,4 @@ Thanks to everyone who directly contributed to this release:
 - theStack
 - willcl-ark
 - zaidmstrr
-
-As well as to everyone that helped with translations on
-[Transifex](https://explore.transifex.com/bitcoin/bitcoin/).
-
  
