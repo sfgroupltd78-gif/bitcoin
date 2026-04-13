@@ -21,3 +21,4 @@ index 773e037..a558145 100644
  
  if(CMAKE_USE_PTHREADS_INIT)
      add_definitions(-DHAVE_LIBPTHREAD=1)
+ 
