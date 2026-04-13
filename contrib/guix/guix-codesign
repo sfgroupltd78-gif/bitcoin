@@ -380,6 +380,4 @@ EOF
                                         CODESIGNING_TARBALL="$(OUTDIR_BASE=/outdir-base && codesigning_tarball_for_host "$HOST")" \
                                       bash -c "cd /bitcoin && bash contrib/guix/libexec/codesign.sh"
     )
-
-done
  
