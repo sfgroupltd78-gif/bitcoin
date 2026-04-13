@@ -72,3 +72,4 @@ def print_process_failure(completed: subprocess.CompletedProcess):
 
 if __name__ == '__main__':
     main()
+ 
