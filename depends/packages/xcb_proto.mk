@@ -19,3 +19,4 @@ endef
 define $(package)_postprocess_cmds
   rm -rf lib/python*/site-packages/xcbgen/__pycache__
 endef
+ 
