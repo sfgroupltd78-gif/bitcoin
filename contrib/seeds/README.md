@@ -29,3 +29,4 @@ python3 makeseeds.py -a asmap-filled.dat -s seeds_test.txt -m 4650000 > nodes_te
 python3 makeseeds.py -a asmap-filled.dat -s seeds_testnet4.txt -m 100000 > nodes_testnet4.txt
 python3 generate-seeds.py . > ../../src/chainparamsseeds.h
 ```
+ 
