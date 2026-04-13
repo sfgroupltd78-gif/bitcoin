@@ -60,3 +60,4 @@ ${SIGNAPPLE} notarize --passphrase "${api_key_pass}" "$2" "$3" "${binaries_dir}"
 tar -C "${TEMPDIR}" -czf "${OUT}" "${OUTDIR}"
 rm -rf "${TEMPDIR}"
 echo "Created ${OUT}"
+ 
