@@ -156,3 +156,4 @@ elif res.status_code == 429:
 else:
     print(f'Returned Error Code {res.status_code}\n{res.text}\n')
     print('Please check the provided arguments for their validity and/or any possible typo.')
+ 
