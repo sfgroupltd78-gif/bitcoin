@@ -11,3 +11,4 @@ index eb27313..371ab24 100644
 +paths = '@GUIX_OSCRYPTO_USE_OPENSSL@'.split(',')
 +assert len(paths) == 2, 'Value for OSCRYPTO_USE_OPENSSL env var must be two paths separated by a comma'
 +use_openssl(*paths)
+ 
