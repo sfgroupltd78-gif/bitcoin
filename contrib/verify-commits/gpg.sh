@@ -33,3 +33,4 @@ else
         printf '%s\n' "$INPUT" | gpg --trust-model always --weak-digest sha1 "$@" 2>/dev/null
         exit $?
 fi
+ 
