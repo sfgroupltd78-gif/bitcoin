@@ -14,3 +14,4 @@ Upstreamed in https://github.com/zeromq/libzmq/pull/4668.
    check_cxx_symbol_exists(accept4 sys/socket.h HAVE_ACCEPT4)
    check_cxx_symbol_exists(strnlen string.h HAVE_STRNLEN)
  else()
+ 
