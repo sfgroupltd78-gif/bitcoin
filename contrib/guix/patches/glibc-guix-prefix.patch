@@ -14,3 +14,4 @@ the package, map all guix store prefixes to something fixed, e.g. /usr.
  libtype.o := lib%.a
  object-suffixes += .o
  ifeq (yes,$(build-shared))
+ 
