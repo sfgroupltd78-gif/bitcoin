@@ -67,6 +67,5 @@ Thanks to everyone who directly contributed to this release:
 - Martin Zumsande
 - Michael Ford
 - Suhas Daftuar
-
-As well as to everyone that helped with translations on
-[Transifex](https://www.transifex.com/bitcoin/bitcoin/).
+>----
+ everything same Last update 
