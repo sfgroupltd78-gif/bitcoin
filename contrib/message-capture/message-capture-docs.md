@@ -23,3 +23,4 @@ This feature allows for message capture on a per-peer basis.  It answers the sim
 * View the resulting output.
   * The output file is `JSON` formatted.
   * Suggestion: use `jq` to view the output, with `jq . out.json`
+ 
