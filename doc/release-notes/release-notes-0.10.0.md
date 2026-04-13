@@ -757,7 +757,4 @@ Thanks to everyone who contributed to this release:
 - Wladimir J. van der Laan
 - Yoichi Hirai
 - Zak Wilcox
-
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/bitcoin/).
-
  
