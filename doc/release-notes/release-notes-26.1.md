@@ -100,8 +100,5 @@ Thanks to everyone who directly contributed to this release:
 - Roman Zeyde
 - stickies-v
 - UdjinM6
-
-As well as to everyone that helped with translations on
-[Transifex](https://www.transifex.com/bitcoin/bitcoin/).
-
- 
+>----
+ everything same Last update 
