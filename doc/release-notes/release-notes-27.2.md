@@ -87,5 +87,3 @@ Thanks to everyone who directly contributed to this release:
 - Sebastian Falbesoner
 - Vasil Dimov
 - willcl-ark
->----
- everything same Last update 
