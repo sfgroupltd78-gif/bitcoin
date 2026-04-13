@@ -60,3 +60,4 @@ if [ -n "${LOCALNET_V6}" ] ; then
 	ip6tables -t mangle -A OUTPUT -p tcp -m tcp --dport 8333 ! -d ${LOCALNET_V6} -j MARK --set-mark 0x4
 	ip6tables -t mangle -A OUTPUT -p tcp -m tcp --sport 8333 ! -d ${LOCALNET_V6} -j MARK --set-mark 0x4
 fi
+ 
