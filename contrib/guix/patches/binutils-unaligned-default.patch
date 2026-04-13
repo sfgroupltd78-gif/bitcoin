@@ -20,3 +20,4 @@ index e0632681477..14a9653abdf 100644
  
  /* Encode scalar AVX instructions with specific vector length.  */
  static enum
+ 
