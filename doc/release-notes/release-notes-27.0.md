@@ -211,8 +211,5 @@ Thanks to everyone who directly contributed to this release:
 - Vasil Dimov
 - w0xlt
 - willcl-ark
-
-
-As well as to everyone that helped with translations on
-[Transifex](https://www.transifex.com/bitcoin/bitcoin/).
- 
+>----
+ everything same Last update 
