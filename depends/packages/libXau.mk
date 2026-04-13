@@ -31,3 +31,4 @@ endef
 define $(package)_postprocess_cmds
   rm -rf share lib/*.la
 endef
+ 
