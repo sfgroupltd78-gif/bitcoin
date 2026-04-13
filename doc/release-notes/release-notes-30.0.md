@@ -433,7 +433,4 @@ Thanks to everyone who directly contributed to this release:
 - woltx
 - yancy
 - zaidmstrr
-
-As well as to everyone that helped with translations on
-[Transifex](https://explore.transifex.com/bitcoin/bitcoin/).
  
