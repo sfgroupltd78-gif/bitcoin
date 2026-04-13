@@ -126,3 +126,4 @@ has been built from the traditional IBD process, and will be initialized as such
 A file will be left in `chainstate/base_blockhash`, which indicates that the
 chainstate, even though now fully validated, was originally started from a snapshot
 with the corresponding base blockhash.
+ 
