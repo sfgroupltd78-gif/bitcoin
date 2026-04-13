@@ -19,3 +19,4 @@ See: https://codereview.qt-project.org/c/qt/qtbase/+/634002
 +        DISABLE_PRECOMPILE_HEADERS ON
 +    )
 +endif()
+ 
