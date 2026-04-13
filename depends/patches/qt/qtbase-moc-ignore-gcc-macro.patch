@@ -15,3 +15,4 @@ diff --git a/qtbase/src/tools/moc/main.cpp b/qtbase/src/tools/moc/main.cpp
  
      QString filename;
      QString output;
+ 
