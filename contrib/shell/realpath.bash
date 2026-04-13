@@ -69,3 +69,4 @@ _canonicalize_file_path() {
     file=$(basename -- "$1")
     (cd "$dir" 2>/dev/null && printf '%s/%s\n' "$(pwd -P)" "$file")
 }
+ 
