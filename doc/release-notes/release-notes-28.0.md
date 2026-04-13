@@ -366,7 +366,5 @@ Thanks to everyone who directly contributed to this release:
 - Vasil Dimov
 - virtu
 - willcl-ark
-
-As well as to everyone that helped with translations on
-[Transifex](https://www.transifex.com/bitcoin/bitcoin/).
- 
+>----
+Last update 
