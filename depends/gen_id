@@ -102,3 +102,4 @@
         # Otherwise, passthrough stdin to stdout
         cat
     fi | ${SHA256SUM} - | cut -d' ' -f1
+ 
