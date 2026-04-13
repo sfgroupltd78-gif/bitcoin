@@ -68,8 +68,4 @@ Thanks to everyone who directly contributed to this release:
 - MarcoFalke
 - UdjinM6
 - dergoegge
-- Greg Sanders
-
-As well as to everyone that helped with translations on
-[Transifex](https://www.transifex.com/bitcoin/bitcoin/).
- 
+- 
