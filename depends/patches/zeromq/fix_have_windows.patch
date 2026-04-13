@@ -52,3 +52,4 @@ index bdc80283..6f21e8f6 100644
  #if defined ZMQ_HAVE_IPC
  #include <direct.h>
  #include <afunix.h>
+ 
