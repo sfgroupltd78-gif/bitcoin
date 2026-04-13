@@ -19,3 +19,4 @@ so we can safely disable it.
      endif()
  
      qt_internal_add_sync_header_dependencies(EntryPointImplementation Core)
+ 
