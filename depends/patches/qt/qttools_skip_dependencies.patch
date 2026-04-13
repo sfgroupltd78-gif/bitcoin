@@ -34,3 +34,4 @@ QtTools: Skip unnecessary dependencies:
  
  # Create a fake module that would emulate the Qt5::LinguistTools CMake Config package
  qt_internal_add_module(Linguist
+ 
