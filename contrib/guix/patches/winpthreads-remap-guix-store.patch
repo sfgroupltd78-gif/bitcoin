@@ -15,3 +15,4 @@ the package, map all guix store prefixes to something fixed, e.g. /usr.
  ACLOCAL_AMFLAGS = -I m4
  lib_LTLIBRARIES = libwinpthread.la
  include_HEADERS = include/pthread.h include/sched.h include/semaphore.h include/pthread_unistd.h include/pthread_time.h include/pthread_compat.h include/pthread_signal.h
+ 
