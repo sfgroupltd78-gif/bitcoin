@@ -12,3 +12,4 @@ git_head_version() {
         git rev-parse --short=12 HEAD
     fi
 }
+ 
