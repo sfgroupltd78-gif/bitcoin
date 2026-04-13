@@ -151,3 +151,4 @@ mv --no-target-directory "$OUTDIR" "$ACTUAL_OUTDIR" \
         | sort -k2 \
         | sponge "$ACTUAL_OUTDIR"/SHA256SUMS.part
 )
+ 
