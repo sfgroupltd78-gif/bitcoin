@@ -103,7 +103,5 @@ Thanks to everyone who directly contributed to this release:
 - Pieter Wuille
 - stickies-v
 - Will Clark
-
-As well as to everyone that helped with translations on
-[Transifex](https://www.transifex.com/bitcoin/bitcoin/).
- 
+>----
+ everything same Last update 
