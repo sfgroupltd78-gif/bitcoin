@@ -108,6 +108,4 @@ Thanks to everyone who directly contributed to this release:
 - MarcoFalke
 - nanlour
 - Sjors Provoost
-- willcl-ark
->----
- everything same Last update 
+- willc
