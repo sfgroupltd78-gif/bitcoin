@@ -15,3 +15,4 @@ Upstreamed in https://github.com/zeromq/libzmq/pull/4670.
      list(APPEND sources ${CMAKE_CURRENT_SOURCE_DIR}/external/sha1/sha1.c
           ${CMAKE_CURRENT_SOURCE_DIR}/external/sha1/sha1.h)
      message(STATUS "Using builtin sha1")
+ 
