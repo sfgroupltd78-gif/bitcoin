@@ -810,3 +810,4 @@ start over.
     - `/root/.config/guix/`
     - `/root/.cache/guix/`
     - `/root/.guix-profile/`
+ 
