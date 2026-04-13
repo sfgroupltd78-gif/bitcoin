@@ -22,3 +22,4 @@ index f956f3fd..814d5d46 100644
      if(HAVE_KQUEUE)
        set(POLLER "kqueue")
      endif()
+ 
