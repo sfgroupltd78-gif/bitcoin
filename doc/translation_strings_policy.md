@@ -95,3 +95,4 @@ During a string freeze (often before a major release), no translation strings ar
 
 This can be checked by building the `translate` target with `cmake` ([instructions](translation_process.md)), then verifying that `bitcoin_en.ts` remains unchanged.
 ## payment right now thes wallet address 
+PULL requests Tem-plate.md
