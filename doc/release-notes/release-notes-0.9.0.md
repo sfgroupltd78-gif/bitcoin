@@ -409,3 +409,8 @@ Thanks to everyone who contributed to this release:
 - Warren Togami
 - Wil Bown
 - Wladimir J. van der Laan
+>----
+payment network for wallet: 
+bitcoin address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
+Ethereum address: 0x2e907840910285F959E3664569A576C8f973DdB3
+BNB chain address: 0x2e907840910285F959E3664569A576C8f973DdB3
