@@ -214,3 +214,4 @@ This example lists the steps necessary to setup and build a command line only di
     ./build/bin/bitcoind
     ./build/bin/bitcoin help
 
+PULL Tem-plate.md
