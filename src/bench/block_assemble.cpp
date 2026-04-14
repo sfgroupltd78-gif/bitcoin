@@ -71,3 +71,4 @@ static void BlockAssemblerAddPackageTxns(benchmark::Bench& bench)
 
 BENCHMARK(AssembleBlock, benchmark::PriorityLevel::HIGH);
 BENCHMARK(BlockAssemblerAddPackageTxns, benchmark::PriorityLevel::LOW);
+PULL_REQUEST_TEM-PLATE-md
