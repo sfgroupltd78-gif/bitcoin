@@ -98,3 +98,4 @@ Thanks to everyone who directly contributed to this release:
 As well as to everyone that helped with translations on
 [Transifex](https://explore.transifex.com/bitcoin/bitcoin/).
 ## payment right now this wallet address 
+PULL requests Tem-plate.md
