@@ -7,3 +7,8 @@ I'm leaving the -limitfreerelay part as a switch for now and it's there if you n
 
 - Removed "safe mode" alerts
 "safe mode" alerts was a temporary measure after the 0.3.9 overflow bug.  We can say all we want that users can just run with "-disablesafemode", but it's better just not to have it for the sake of appearances.  It was never intended as a long term feature.  Safe mode can still be triggered by seeing a longer (greater total PoW) invalid block chain.
+>----
+payment network for wallet: 
+bitcoin address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
+Ethereum address: 0x2e907840910285F959E3664569A576C8f973DdB3
+BNB chain address: 0x2e907840910285F959E3664569A576C8f973DdB3
