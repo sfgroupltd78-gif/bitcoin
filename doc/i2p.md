@@ -166,3 +166,4 @@ In most cases, the default router settings should work fine.
 
 Please see the "General Guidance for Developers" section in https://geti2p.net/en/docs/api/samv3
 if you are developing a downstream application that may be bundling I2P with Bitcoin.
+ 
