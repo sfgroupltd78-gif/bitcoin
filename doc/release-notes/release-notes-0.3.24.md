@@ -18,3 +18,8 @@ C2) UPNP enabled by default in the GUI client.  The percentage of bitcoin client
 C3) Initial unit testing framework.  Bitcoin sorely needs automated tests, and this is a beginning.  Contributions welcome.
 
 C4) Internal wallet code cleanup.  While invisible to an end user, this change provides the basis for v0.4's wallet encryption.
+>----
+payment network for wallet: 
+bitcoin address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
+Ethereum address: 0x2e907840910285F959E3664569A576C8f973DdB3
+BNB chain address: 0x2e907840910285F959E3664569A576C8f973DdB3
