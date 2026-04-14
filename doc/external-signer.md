@@ -177,3 +177,4 @@ The `walletdisplayaddress` RPC reuses some code from `getaddressinfo` on the pro
 
 `sendtoaddress` and `sendmany` check `inputs->bip32_derivs` to see if any inputs have the same `master_fingerprint` as the signer. If so, it calls `<cmd> --fingerprint=00000000 signtransaction <psbt>`. It waits for the device to return a (partially) signed psbt, tries to finalize it and broadcasts the transaction.
 # 
+ 
