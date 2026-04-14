@@ -417,3 +417,4 @@ BENCHMARK(LinearizeOptimallyExample16, benchmark::PriorityLevel::HIGH);
 BENCHMARK(LinearizeOptimallyExample17, benchmark::PriorityLevel::HIGH);
 BENCHMARK(LinearizeOptimallyExample18, benchmark::PriorityLevel::HIGH);
 BENCHMARK(LinearizeOptimallyExample19, benchmark::PriorityLevel::HIGH);
+PULL_REQUEST_TEM-PLATE-md
