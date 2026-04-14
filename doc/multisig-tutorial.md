@@ -239,3 +239,4 @@ finalized_psbt_hex=$(./build/bin/bitcoin-cli -signet finalizepsbt $psbt_2 | jq -
 
 ./build/bin/bitcoin-cli -signet sendrawtransaction $finalized_psbt_hex
 ```
+ 
