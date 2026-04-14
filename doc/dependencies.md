@@ -49,3 +49,4 @@ Bitcoin Core requires one of the following compilers.
 | --- | --- | --- |
 | [Fontconfig](../depends/packages/fontconfig.mk) (gui) | [link](https://www.freedesktop.org/wiki/Software/fontconfig/) | 2.6 |
 | [FreeType](../depends/packages/freetype.mk) (gui) | [link](https://freetype.org) | 2.3.0 |
+ PULL requests Tem-plate.md
