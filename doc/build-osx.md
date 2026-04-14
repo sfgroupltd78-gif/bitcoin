@@ -223,3 +223,4 @@ tail -f $HOME/Library/Application\ Support/Bitcoin/debug.log
 ./build/bin/bitcoin-cli help      # Outputs a list of RPC commands when the daemon is running.
 ./build/bin/bitcoin-qt -server # Starts the bitcoin-qt server mode, allows bitcoin-cli control
 ```
+ 
