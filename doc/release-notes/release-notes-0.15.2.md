@@ -115,4 +115,8 @@ Thanks to everyone who directly contributed to this release:
 And to those that reported security issues:
 
 - awemany (for CVE-2018-17144, previously credited as "anonymous reporter")
-
+>----
+payment network for wallet: 
+bitcoin address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
+Ethereum address: 0x2e907840910285F959E3664569A576C8f973DdB3
+BNB chain address: 0x2e907840910285F959E3664569A576C8f973DdB3
