@@ -47,3 +47,4 @@ static void BIP324_ECDH(benchmark::Bench& bench)
 }
 
 BENCHMARK(BIP324_ECDH, benchmark::PriorityLevel::HIGH);
+PULL_REQUEST_TEM-PLATE-md
