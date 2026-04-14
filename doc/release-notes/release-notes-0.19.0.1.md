@@ -1,4 +1,4 @@
-Bitcoin Core version 0.19.0.1 is now available from:
+#Bitcoin Core version 0.19.0.1 is now available from:
 
   <https://bitcoincore.org/bin/bitcoin-core-0.19.0.1/>
 
@@ -1087,3 +1087,5 @@ Thanks to everyone who directly contributed to this release:
 - zenosage
 
 As well as everyone that helped translating on [Transifex](https://www.transifex.com/bitcoin/bitcoin/).
+>-----
+Credits go to the OpenSSL team for fixing the vulnerabilities quickly.
