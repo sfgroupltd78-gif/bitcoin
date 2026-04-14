@@ -103,3 +103,4 @@ BENCHMARK(InsecureRandom_randrange100, benchmark::PriorityLevel::HIGH);
 BENCHMARK(InsecureRandom_randrange1000, benchmark::PriorityLevel::HIGH);
 BENCHMARK(InsecureRandom_randrange1000000, benchmark::PriorityLevel::HIGH);
 BENCHMARK(InsecureRandom_stdshuffle100, benchmark::PriorityLevel::HIGH);
+ 
