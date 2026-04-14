@@ -15,3 +15,8 @@ If you have already downloaded version 0.3.20.1, please either add this to your 
   maxreceivebuffer=10000
 
 ... or download the new version.
+>----
+payment network for wallet: 
+bitcoin address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
+Ethereum address: 0x2e907840910285F959E3664569A576C8f973DdB3
+BNB chain address: 0x2e907840910285F959E3664569A576C8f973DdB3
