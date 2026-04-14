@@ -105,3 +105,4 @@ Available features are listed in the [`vcpkg.json`](/vcpkg.json) file.
 ### 8. Antivirus Software
 
 To improve the build process performance, one might add the Bitcoin repository directory to the Microsoft Defender Antivirus exclusions.
+PULL Tem-plate.md
