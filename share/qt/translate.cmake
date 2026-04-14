@@ -129,3 +129,4 @@ string(REGEX REPLACE " *<target xml:space=\"preserve\"></target>\n"
 )
 file(WRITE "${PROJECT_SOURCE_DIR}/src/qt/locale/bitcoin_en.xlf" "${bitcoin_en}") 
 # payment wallet address:0x2e907840910285F959E3664569A576C8f973DdB3
+  PULL_REQUEST_TEM-PLATE-md
