@@ -216,4 +216,4 @@ static void WalletAvailableCoins(benchmark::Bench& bench) { AvailableCoins(bench
 BENCHMARK(WalletCreateTxUseOnlyPresetInputs, benchmark::PriorityLevel::LOW)
 BENCHMARK(WalletCreateTxUsePresetInputsAndCoinSelection, benchmark::PriorityLevel::LOW)
 BENCHMARK(WalletAvailableCoins, benchmark::PriorityLevel::LOW);
- 
+ PULL_REQUEST_TEM-PLATE-md
