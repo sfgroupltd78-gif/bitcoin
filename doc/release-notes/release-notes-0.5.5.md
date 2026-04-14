@@ -35,3 +35,8 @@ Work around issue in boost::program_options that prevents from compiling in clan
 Fixed bugs occurring only on platforms with unsigned characters (such as ARM).
 Rename make_windows_icon.py to .sh as it is a shell script. Fixes #1099 (Bitcoin-Qt)
 Various trivial internal corrections to types used for counting/size loops and warnings
+>----
+payment network for wallet: 
+bitcoin address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
+Ethereum address: 0x2e907840910285F959E3664569A576C8f973DdB3
+BNB chain address: 0x2e907840910285F959E3664569A576C8f973DdB3
