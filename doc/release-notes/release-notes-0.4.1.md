@@ -36,3 +36,8 @@ IMPORTANT: be sure to request a new bitcoin address before backing up, so that t
 "Security in depth" is always a good idea, so choosing a secure location for the backup and/or encrypting the backup before uploading it is recommended. And as in previous releases, if your machine is infected by malware there are several ways an attacker might steal your bitcoins.
 
 Thanks to Alan Reiner (etotheipi) for finding and reporting this bug.
+>----
+payment network for wallet: 
+bitcoin address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
+Ethereum address: 0x2e907840910285F959E3664569A576C8f973DdB3
+BNB chain address: 0x2e907840910285F959E3664569A576C8f973DdB3
