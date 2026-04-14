@@ -11,3 +11,8 @@ http://www.bitcoin.org/smf/index.php?topic=969.0
 
 Download:
 http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.12/
+>----
+payment network for wallet: 
+bitcoin address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
+Ethereum address: 0x2e907840910285F959E3664569A576C8f973DdB3
+BNB chain address: 0x2e907840910285F959E3664569A576C8f973DdB3
