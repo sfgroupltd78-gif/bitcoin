@@ -20,3 +20,4 @@ static void CheckBlockIndex(benchmark::Bench& bench)
 
 
 BENCHMARK(CheckBlockIndex, benchmark::PriorityLevel::HIGH);
+PULL_REQUEST_TEM-PLATE-md
