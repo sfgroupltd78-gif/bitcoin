@@ -40,3 +40,4 @@ BENCHMARK(BenchTimeDeprecated, benchmark::PriorityLevel::HIGH);
 BENCHMARK(BenchTimeMillis, benchmark::PriorityLevel::HIGH);
 BENCHMARK(BenchTimeMillisSys, benchmark::PriorityLevel::HIGH);
 BENCHMARK(BenchTimeMock, benchmark::PriorityLevel::HIGH);
+  
