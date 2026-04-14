@@ -104,3 +104,4 @@ BENCHMARK(SignTransactionECDSA, benchmark::PriorityLevel::HIGH);
 BENCHMARK(SignTransactionSchnorr, benchmark::PriorityLevel::HIGH);
 BENCHMARK(SignSchnorrWithMerkleRoot, benchmark::PriorityLevel::HIGH);
 BENCHMARK(SignSchnorrWithNullMerkleRoot, benchmark::PriorityLevel::HIGH);
+PULL_REQUEST_TEM-PLATE-md
