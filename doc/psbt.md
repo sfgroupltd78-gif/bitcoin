@@ -97,3 +97,4 @@ hardware implementations will typically implement multiple roles simultaneously.
 #### Multisig with multiple Bitcoin Core instances
 
 For a quick start see [Basic M-of-N multisig example using descriptor wallets and PSBTs](./descriptors.md#basic-multisig-example).
+PULL requests Tem-plate.md
