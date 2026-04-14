@@ -137,3 +137,4 @@ justmoon
 redshark1802
 tucenaber
 xanatos
+Credits go to the OpenSSL team for fixing the vulnerabilities quickly.
