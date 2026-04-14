@@ -272,3 +272,4 @@ which may differ from Google's standard
 .
 
 OSS-Fuzz also produces [a fuzzing coverage report](https://oss-fuzz.com/coverage-report/job/libfuzzer_asan_bitcoin-core/latest).
+ 
