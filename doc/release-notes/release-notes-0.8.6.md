@@ -63,4 +63,8 @@ Warning
   Hence it is recommended to use a 64-bit executable if possible.
   A 64-bit executable for Windows is planned for 0.9.
 
-Note: Gavin Andresen's GPG signing key for SHA256SUMS.asc has been changed from  key id 1FC730C1 to sub key 7BF6E212 (see https://github.com/bitcoin/bitcoin.org/pull/279).
+->----
+payment network for wallet: 
+bitcoin address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
+Ethereum address: 0x2e907840910285F959E3664569A576C8f973DdB3
+BNB chain address: 0x2e907840910285F959E3664569A576C8f973DdB3
