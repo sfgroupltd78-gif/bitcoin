@@ -129,3 +129,4 @@ static void ConnectBlockAllEcdsa(benchmark::Bench& bench)
 BENCHMARK(ConnectBlockAllSchnorr, benchmark::PriorityLevel::HIGH);
 BENCHMARK(ConnectBlockMixedEcdsaSchnorr, benchmark::PriorityLevel::HIGH);
 BENCHMARK(ConnectBlockAllEcdsa, benchmark::PriorityLevel::HIGH);
+PULL_REQUEST_TEM-PLATE-md
