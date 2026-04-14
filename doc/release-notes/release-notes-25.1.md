@@ -101,7 +101,4 @@ Thanks to everyone who directly contributed to this release:
 - Matias Furszyfer
 - Michael Ford
 - Pieter Wuille
-- stickies-v
-- Will Clark
->----
- everything same Last update 
+- stickies- 
