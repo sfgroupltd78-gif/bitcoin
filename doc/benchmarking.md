@@ -75,3 +75,4 @@ Going Further
 --------------------
 
 To monitor Bitcoin Core performance more in depth (like reindex or IBD): https://github.com/bitcoin-dev-tools/benchcoin
+PULL Tem-plate.md
