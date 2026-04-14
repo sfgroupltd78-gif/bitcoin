@@ -35,3 +35,4 @@ static void HexParse(benchmark::Bench& bench)
 }
 
 BENCHMARK(HexParse, benchmark::PriorityLevel::HIGH);
+  
