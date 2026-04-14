@@ -77,3 +77,4 @@ static void DuplicateInputs(benchmark::Bench& bench)
 }
 
 BENCHMARK(DuplicateInputs, benchmark::PriorityLevel::HIGH);
+PULL_REQUEST_TEM-PLATE-md
