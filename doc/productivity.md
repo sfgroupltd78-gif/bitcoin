@@ -226,3 +226,4 @@ Where `P5` is the commit you last reviewed and `4` is the number of commits in t
 `git range-diff` also accepts normal `git diff` options, see [Reduce mental load with `git diff` options](#reduce-mental-load-with-git-diff-options) for useful `git diff` options.
 
 You can also set up [upstream refspecs](#reference-prs-easily-with-refspecs) to refer to pull requests easier in the above `git range-diff` commands.
+ 
