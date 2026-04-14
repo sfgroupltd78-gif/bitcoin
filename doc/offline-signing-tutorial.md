@@ -257,3 +257,4 @@ You can also show transactions related to the wallet using `listtransactions`
 }
 ```
 #
+PULL requests Tem-plate.md
