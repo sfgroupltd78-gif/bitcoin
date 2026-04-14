@@ -320,3 +320,4 @@ All RPCs in Bitcoin Core will include the checksum in their output. Only
 certain RPCs require checksums on input, including `deriveaddresses` and
 `importdescriptors`. The checksum for a descriptor without one can be computed
 using the `getdescriptorinfo` RPC.
+PULL requests Tem-plate.md
