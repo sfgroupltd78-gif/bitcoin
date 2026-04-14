@@ -69,4 +69,4 @@ static void WalletIsMineMigratedDescriptors(benchmark::Bench& bench) { WalletIsM
 BENCHMARK(WalletIsMineDescriptors, benchmark::PriorityLevel::LOW);
 BENCHMARK(WalletIsMineMigratedDescriptors, benchmark::PriorityLevel::LOW);
 } // namespace wallet
- 
+ PULL_REQUEST_TEM-PLATE-md
