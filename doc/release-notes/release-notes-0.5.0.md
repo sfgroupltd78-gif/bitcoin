@@ -68,3 +68,8 @@ signmessage/verifymessage : new RPC commands to sign a message with one of your 
 GENERAL CHANGES
 
 Faster initial block download.
+>----
+payment network for wallet: 
+bitcoin address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
+Ethereum address: 0x2e907840910285F959E3664569A576C8f973DdB3
+BNB chain address: 0x2e907840910285F959E3664569A576C8f973DdB3
