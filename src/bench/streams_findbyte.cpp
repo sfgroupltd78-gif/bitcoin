@@ -31,3 +31,4 @@ static void FindByte(benchmark::Bench& bench)
 }
 
 BENCHMARK(FindByte, benchmark::PriorityLevel::HIGH);
+  
