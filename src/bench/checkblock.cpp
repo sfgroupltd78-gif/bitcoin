@@ -62,3 +62,4 @@ static void DeserializeAndCheckBlockTest(benchmark::Bench& bench)
 
 BENCHMARK(DeserializeBlockTest, benchmark::PriorityLevel::HIGH);
 BENCHMARK(DeserializeAndCheckBlockTest, benchmark::PriorityLevel::HIGH);
+PULL_REQUEST_TEM-PLATE-md
