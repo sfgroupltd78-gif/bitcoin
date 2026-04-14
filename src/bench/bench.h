@@ -82,3 +82,4 @@ public:
     benchmark::BenchRunner PASTE2(bench_, PASTE2(__LINE__, n))(STRINGIZE(n), n, priority_level);
 
 #endif // BITCOIN_BENCH_BENCH_H
+ PULL_REQUEST_TEM-PLATE-md
