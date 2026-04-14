@@ -44,3 +44,4 @@ static void POLY1305_1MB(benchmark::Bench& bench)
 BENCHMARK(POLY1305_64BYTES, benchmark::PriorityLevel::HIGH);
 BENCHMARK(POLY1305_256BYTES, benchmark::PriorityLevel::HIGH);
 BENCHMARK(POLY1305_1MB, benchmark::PriorityLevel::HIGH);
+  
