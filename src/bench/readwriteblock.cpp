@@ -68,3 +68,4 @@ static void ReadRawBlockBench(benchmark::Bench& bench)
 BENCHMARK(WriteBlockBench, benchmark::PriorityLevel::HIGH);
 BENCHMARK(ReadBlockBench, benchmark::PriorityLevel::HIGH);
 BENCHMARK(ReadRawBlockBench, benchmark::PriorityLevel::HIGH);
+  
