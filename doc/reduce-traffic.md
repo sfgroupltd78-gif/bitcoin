@@ -54,3 +54,4 @@ Be reminded of the effects of this setting.
   their transactions.
 - It makes block propagation slower because compact block relay can only be
   used when transaction relay is enabled.
+ 
