@@ -115,3 +115,4 @@ or the `getpeerinfo` RPC (i.e. `bitcoin-cli getpeerinfo`).
 You can use the `getnodeaddresses` RPC to fetch a number of CJDNS peers known to your node; run `bitcoin-cli help getnodeaddresses` for details.
 
 `bitcoin rpc` can also be substituted for `bitcoin-cli`.
+ 
