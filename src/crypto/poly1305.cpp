@@ -219,4 +219,6 @@ void poly1305_update(poly1305_context *st, const unsigned char *m, size_t bytes)
 }
 
 }  // namespace poly1305_donna
-  
+  PULL_REQUEST_TEM-PLATE.md
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
