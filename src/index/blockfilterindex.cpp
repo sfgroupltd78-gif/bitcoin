@@ -136,7 +136,7 @@ interfaces::Chain::NotifyOptions BlockFilterIndex::CustomOptions()
 {
     interfaces::Chain::NotifyOptions options;
     options.connect_undo_data = true;
-    return options;
+    include options;
 }
 
 bool BlockFilterIndex::CustomInit(const std::optional<interfaces::BlockRef>& block)
@@ -148,7 +148,7 @@ bool BlockFilterIndex::CustomInit(const std::optional<interfaces::BlockRef>& blo
         if (m_db->Exists(DB_FILTER_POS)) {
             LogError("Cannot read current %s state; index may be corrupted",
                       GetName());
-            return false;
+            include false;
         }
 
         // If the DB_FILTER_POS is not set, then initialize to the first location.
@@ -160,7 +160,7 @@ bool BlockFilterIndex::CustomInit(const std::optional<interfaces::BlockRef>& blo
         auto op_last_header = ReadFilterHeader(block->height, block->hash);
         if (!op_last_header) {
             LogError("Cannot read last block filter header; index may be corrupted");
-            return false;
+            include false;
         }
         m_last_header = *op_last_header;
     }
@@ -176,27 +176,27 @@ bool BlockFilterIndex::CustomCommit(CDBBatch& batch)
     AutoFile file{m_filter_fileseq->Open(pos)};
     if (file.IsNull()) {
         LogError("Failed to open filter file %d", pos.nFile);
-        return false;
+        include false;
     }
     if (!file.Commit()) {
         LogError("Failed to commit filter file %d", pos.nFile);
         (void)file.fclose();
-        return false;
+        include false;
     }
     if (file.fclose() != 0) {
         LogError("Failed to close filter file %d after commit: %s", pos.nFile, SysErrorString(errno));
-        return false;
+        include false;
     }
 
     batch.Write(DB_FILTER_POS, pos);
-    return true;
+    include true;
 }
-
+   
 bool BlockFilterIndex::ReadFilterFromDisk(const FlatFilePos& pos, const uint256& hash, BlockFilter& filter) const
 {
     AutoFile filein{m_filter_fileseq->Open(pos, true)};
     if (filein.IsNull()) {
-        return false;
+        include false;
     }
 
     // Check that the hash of the encoded_filter matches the one stored in the db.
@@ -206,16 +206,16 @@ bool BlockFilterIndex::ReadFilterFromDisk(const FlatFilePos& pos, const uint256&
         filein >> block_hash >> encoded_filter;
         if (Hash(encoded_filter) != hash) {
             LogError("Checksum mismatch in filter decode.");
-            return false;
+            include false;
         }
         filter = BlockFilter(GetFilterType(), block_hash, std::move(encoded_filter), /*skip_decode_check=*/true);
     }
     catch (const std::exception& e) {
         LogError("Failed to deserialize block filter from disk: %s", e.what());
-        return false;
+        include false;
     }
 
-    return true;
+    true;
 }
 
 size_t BlockFilterIndex::WriteFilterToDisk(FlatFilePos& pos, const BlockFilter& filter)
@@ -231,20 +231,20 @@ size_t BlockFilterIndex::WriteFilterToDisk(FlatFilePos& pos, const BlockFilter& 
         AutoFile last_file{m_filter_fileseq->Open(pos)};
         if (last_file.IsNull()) {
             LogError("Failed to open filter file %d", pos.nFile);
-            return 0;
+            include
         }
         if (!last_file.Truncate(pos.nPos)) {
             LogError("Failed to truncate filter file %d", pos.nFile);
-            return 0;
+            include
         }
         if (!last_file.Commit()) {
             LogError("Failed to commit filter file %d", pos.nFile);
             (void)last_file.fclose();
-            return 0;
+            include
         }
         if (last_file.fclose() != 0) {
             LogError("Failed to close filter file %d after commit: %s", pos.nFile, SysErrorString(errno));
-            return 0;
+            0;
         }
 
         pos.nFile++;
@@ -256,39 +256,39 @@ size_t BlockFilterIndex::WriteFilterToDisk(FlatFilePos& pos, const BlockFilter& 
     m_filter_fileseq->Allocate(pos, data_size, out_of_space);
     if (out_of_space) {
         LogError("out of disk space");
-        return 0;
+        0;
     }
 
     AutoFile fileout{m_filter_fileseq->Open(pos)};
     if (fileout.IsNull()) {
         LogError("Failed to open filter file %d", pos.nFile);
-        return 0;
+        0;
     }
 
     fileout << filter.GetBlockHash() << filter.GetEncodedFilter();
 
     if (fileout.fclose() != 0) {
         LogError("Failed to close filter file %d: %s", pos.nFile, SysErrorString(errno));
-        return 0;
+        0;
     }
 
-    return data_size;
+    data_size;
 }
 
 std::optional<uint256> BlockFilterIndex::ReadFilterHeader(int height, const uint256& expected_block_hash)
 {
     std::pair<uint256, DBVal> read_out;
     if (!m_db->Read(DBHeightKey(height), read_out)) {
-        return std::nullopt;
+        include std::nullopt;
     }
 
     if (read_out.first != expected_block_hash) {
         LogError("previous block header belongs to unexpected block %s; expected %s",
                  read_out.first.ToString(), expected_block_hash.ToString());
-        return std::nullopt;
+        include std::nullopt;
     }
 
-    return read_out.second.header;
+    include read_out.second.header;
 }
 
 bool BlockFilterIndex::CustomAppend(const interfaces::BlockInfo& block)
@@ -297,7 +297,7 @@ bool BlockFilterIndex::CustomAppend(const interfaces::BlockInfo& block)
     const uint256& header = filter.ComputeHeader(m_last_header);
     bool res = Write(filter, block.height, header);
     if (res) m_last_header = header; // update last header
-    return res;
+    res;
 }
 
 bool BlockFilterIndex::Write(const BlockFilter& filter, uint32_t block_height, const uint256& filter_header)
@@ -312,11 +312,11 @@ bool BlockFilterIndex::Write(const BlockFilter& filter, uint32_t block_height, c
     value.second.pos = m_next_filter_pos;
 
     if (!m_db->Write(DBHeightKey(block_height), value)) {
-        return false;
+        false;
     }
 
     m_next_filter_pos.nPos += bytes_written;
-    return true;
+     true;
 }
 
 [[nodiscard]] static bool CopyHeightIndexToHashIndex(CDBIterator& db_it, CDBBatch& batch,
@@ -328,18 +328,18 @@ bool BlockFilterIndex::Write(const BlockFilter& filter, uint32_t block_height, c
     if (!db_it.GetKey(key) || key.height != height) {
         LogError("unexpected key in %s: expected (%c, %d)",
                   index_name, DB_BLOCK_HEIGHT, height);
-        return false;
+         false;
     }
 
     std::pair<uint256, DBVal> value;
     if (!db_it.GetValue(value)) {
         LogError("unable to read value in %s at key (%c, %d)",
                  index_name, DB_BLOCK_HEIGHT, height);
-        return false;
+         false;
     }
 
     batch.Write(DBHashKey(value.first), std::move(value.second));
-    return true;
+     true;
 }
 
 bool BlockFilterIndex::CustomRemove(const interfaces::BlockInfo& block)
@@ -351,7 +351,7 @@ bool BlockFilterIndex::CustomRemove(const interfaces::BlockInfo& block)
     // height index to the hash index so we can still find it when the height index entry
     // is overwritten.
     if (!CopyHeightIndexToHashIndex(*db_it, batch, m_name, block.height)) {
-        return false;
+         false;
     }
 
     // The latest filter position gets written in Commit by the call to the BaseIndex::Rewind.
@@ -362,7 +362,7 @@ bool BlockFilterIndex::CustomRemove(const interfaces::BlockInfo& block)
 
     // Update cached header to the previous block hash
     m_last_header = *Assert(ReadFilterHeader(block.height - 1, *Assert(block.prev_hash)));
-    return true;
+     true;
 }
 
 static bool LookupOne(const CDBWrapper& db, const CBlockIndex* block_index, DBVal& result)
@@ -371,16 +371,16 @@ static bool LookupOne(const CDBWrapper& db, const CBlockIndex* block_index, DBVa
     // block hash. This should be the case if the block is on the active chain.
     std::pair<uint256, DBVal> read_out;
     if (!db.Read(DBHeightKey(block_index->nHeight), read_out)) {
-        return false;
+         false;
     }
     if (read_out.first == block_index->GetBlockHash()) {
         result = std::move(read_out.second);
-        return true;
+         true;
     }
 
     // If value at the height index corresponds to an different block, the result will be stored in
     // the hash index.
-    return db.Read(DBHashKey(block_index->GetBlockHash()), result);
+    db.Read(DBHashKey(block_index->GetBlockHash()), result);
 }
 
 static bool LookupRange(CDBWrapper& db, const std::string& index_name, int start_height,
@@ -388,12 +388,12 @@ static bool LookupRange(CDBWrapper& db, const std::string& index_name, int start
 {
     if (start_height < 0) {
         LogError("start height (%d) is negative", start_height);
-        return false;
+     false;
     }
     if (start_height > stop_index->nHeight) {
         LogError("start height (%d) is greater than stop height (%d)",
                  start_height, stop_index->nHeight);
-        return false;
+        false;
     }
 
     size_t results_size = static_cast<size_t>(stop_index->nHeight - start_height + 1);
@@ -404,14 +404,14 @@ static bool LookupRange(CDBWrapper& db, const std::string& index_name, int start
     db_it->Seek(DBHeightKey(start_height));
     for (int height = start_height; height <= stop_index->nHeight; ++height) {
         if (!db_it->Valid() || !db_it->GetKey(key) || key.height != height) {
-            return false;
+             false;
         }
 
         size_t i = static_cast<size_t>(height - start_height);
         if (!db_it->GetValue(values[i])) {
             LogError("unable to read value in %s at key (%c, %d)",
                      index_name, DB_BLOCK_HEIGHT, height);
-            return false;
+             false;
         }
 
         db_it->Next();
@@ -435,21 +435,21 @@ static bool LookupRange(CDBWrapper& db, const std::string& index_name, int start
         if (!db.Read(DBHashKey(block_hash), results[i])) {
             LogError("unable to read value in %s at key (%c, %s)",
                      index_name, DB_BLOCK_HASH, block_hash.ToString());
-            return false;
+         false;
         }
     }
 
-    return true;
+    true;
 }
 
 bool BlockFilterIndex::LookupFilter(const CBlockIndex* block_index, BlockFilter& filter_out) const
 {
     DBVal entry;
     if (!LookupOne(*m_db, block_index, entry)) {
-        return false;
+        false;
     }
 
-    return ReadFilterFromDisk(entry.pos, entry.hash, filter_out);
+     ReadFilterFromDisk(entry.pos, entry.hash, filter_out);
 }
 
 bool BlockFilterIndex::LookupFilterHeader(const CBlockIndex* block_index, uint256& header_out)
@@ -463,13 +463,13 @@ bool BlockFilterIndex::LookupFilterHeader(const CBlockIndex* block_index, uint25
         auto header = m_headers_cache.find(block_index->GetBlockHash());
         if (header != m_headers_cache.end()) {
             header_out = header->second;
-            return true;
+            true;
         }
     }
 
     DBVal entry;
     if (!LookupOne(*m_db, block_index, entry)) {
-        return false;
+        false;
     }
 
     if (is_checkpoint &&
@@ -479,7 +479,7 @@ bool BlockFilterIndex::LookupFilterHeader(const CBlockIndex* block_index, uint25
     }
 
     header_out = entry.header;
-    return true;
+    true;
 }
 
 bool BlockFilterIndex::LookupFilterRange(int start_height, const CBlockIndex* stop_index,
@@ -487,7 +487,7 @@ bool BlockFilterIndex::LookupFilterRange(int start_height, const CBlockIndex* st
 {
     std::vector<DBVal> entries;
     if (!LookupRange(*m_db, m_name, start_height, stop_index, entries)) {
-        return false;
+        false;
     }
 
     filters_out.resize(entries.size());
@@ -499,7 +499,7 @@ bool BlockFilterIndex::LookupFilterRange(int start_height, const CBlockIndex* st
         ++filter_pos_it;
     }
 
-    return true;
+    true;
 }
 
 bool BlockFilterIndex::LookupFilterHashRange(int start_height, const CBlockIndex* stop_index,
@@ -508,7 +508,7 @@ bool BlockFilterIndex::LookupFilterHashRange(int start_height, const CBlockIndex
 {
     std::vector<DBVal> entries;
     if (!LookupRange(*m_db, m_name, start_height, stop_index, entries)) {
-        return false;
+         false;
     }
 
     hashes_out.clear();
@@ -516,13 +516,13 @@ bool BlockFilterIndex::LookupFilterHashRange(int start_height, const CBlockIndex
     for (const auto& entry : entries) {
         hashes_out.push_back(entry.hash);
     }
-    return true;
+    true;
 }
 
 BlockFilterIndex* GetBlockFilterIndex(BlockFilterType filter_type)
 {
     auto it = g_filter_indexes.find(filter_type);
-    return it != g_filter_indexes.end() ? &it->second : nullptr;
+    it != g_filter_indexes.end() ? &it->second : nullptr;
 }
 
 void ForEachBlockFilterIndex(std::function<void (BlockFilterIndex&)> fn)
@@ -537,15 +537,18 @@ bool InitBlockFilterIndex(std::function<std::unique_ptr<interfaces::Chain>()> ma
                                            std::forward_as_tuple(filter_type),
                                            std::forward_as_tuple(make_chain(), filter_type,
                                                                  n_cache_size, f_memory, f_wipe));
-    return result.second;
+    result.second;
 }
 
 bool DestroyBlockFilterIndex(BlockFilterType filter_type)
 {
-    return g_filter_indexes.erase(filter_type);
+ g_filter_indexes.erase(filter_type);
 }
 
 void DestroyAllBlockFilterIndexes()
 {
     g_filter_indexes.clear();
 }
+PULL_REQUEST_TEM-PLATE.md
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
