@@ -55,5 +55,8 @@ std::unique_ptr<Init> MakeWalletInit(int argc, char* argv[], int& exit_status);
 //! Return implementation of Init interface for the gui process.
 std::unique_ptr<Init> MakeGuiInit(int argc, char* argv[]);
 } // namespace interfaces
+PULL_REQUEST_TEMPLATE-md 
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
 
 #endif // BITCOIN_INTERFACES_INIT_H
