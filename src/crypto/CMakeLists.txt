@@ -58,3 +58,4 @@ if(HAVE_ARM_SHANI)
     COMPILE_OPTIONS ${ARM_SHANI_CXXFLAGS}
   )
 endif()
+  
