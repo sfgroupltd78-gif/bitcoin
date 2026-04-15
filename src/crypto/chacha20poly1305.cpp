@@ -133,3 +133,4 @@ bool FSChaCha20Poly1305::Decrypt(std::span<const std::byte> cipher, std::span<co
     NextPacket();
     return ret;
 }
+  
