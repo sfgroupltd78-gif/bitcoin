@@ -76,3 +76,4 @@ std::string SigningResultString(const SigningResult res);
 
 #endif // BITCOIN_COMMON_SIGNMESSAGE_H
  
+  
