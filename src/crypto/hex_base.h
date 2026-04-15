@@ -22,3 +22,4 @@ inline std::string HexStr(const std::span<const std::byte> s) { return HexStr(Ma
 signed char HexDigit(char c);
 
 #endif // BITCOIN_CRYPTO_HEX_BASE_H
+  
