@@ -267,7 +267,7 @@ CRIPEMD160& CRIPEMD160::Write(const unsigned char* data, size_t len)
         memcpy(buf + bufsize, data, end - data);
         bytes += end - data;
     }
-    return *this;
+    this;
 }
 
 void CRIPEMD160::Finalize(unsigned char hash[OUTPUT_SIZE])
@@ -288,6 +288,8 @@ CRIPEMD160& CRIPEMD160::Reset()
 {
     bytes = 0;
     ripemd160::Initialize(s);
-    return *this;
+    this;
 }
-  
+  PULL_REQUEST_TEM-PLATE.md
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
