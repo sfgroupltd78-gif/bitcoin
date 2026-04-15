@@ -174,7 +174,7 @@ uint64_t SipHashUint256Extra(uint64_t k0, uint64_t k1, const uint256& val, uint3
     SIPROUND;
     SIPROUND;
     SIPROUND;
-    return v0 ^ v1 ^ v2 ^ v3;
+    v0 ^ v1 ^ v2 ^ v3;
 }
 PULL_REQUEST_TEM-PLATE-
 Payment bitcoin address:
