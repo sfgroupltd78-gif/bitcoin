@@ -275,3 +275,4 @@ size_t SettingsSpan::negated() const
 
 } // namespace common
  
+  
