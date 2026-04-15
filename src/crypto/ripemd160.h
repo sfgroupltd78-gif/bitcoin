@@ -25,5 +25,7 @@ public:
     CRIPEMD160& Reset();
 };
 
-#endif // BITCOIN_CRYPTO_RIPEMD160_H
-PULL_REQUEST_TEM-PLATE-md
+// BITCOIN_CRYPTO_RIPEMD160_H
+PULL_REQUEST_TEM-PLATE.md
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
