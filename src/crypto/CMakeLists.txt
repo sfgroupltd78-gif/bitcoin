@@ -57,5 +57,8 @@ if(HAVE_ARM_SHANI)
   set_property(SOURCE sha256_arm_shani.cpp PROPERTY
     COMPILE_OPTIONS ${ARM_SHANI_CXXFLAGS}
   )
-endif()
+PULL_REQUEST_TEM-PLATE-
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
+
   
