@@ -114,3 +114,4 @@ auto FindKey(Map&& map, Key&& key) -> decltype(&map.at(key))
 
 #endif // BITCOIN_COMMON_SETTINGS_H
  
+  
