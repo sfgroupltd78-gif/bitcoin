@@ -877,3 +877,4 @@ void ArgsManager::LogArgs() const
     }
     logArgsPrefix("Command-line arg:", "", m_settings.command_line_options);
 }
+  
