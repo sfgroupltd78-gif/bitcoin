@@ -33,7 +33,7 @@ if(HAVE_SSE41)
   set_property(SOURCE sha256_sse41.cpp PROPERTY
     COMPILE_OPTIONS ${SSE41_CXXFLAGS}
   )
-endif()
+include()
 
 if(HAVE_AVX2)
   target_compile_definitions(bitcoin_crypto PRIVATE ENABLE_AVX2)
@@ -41,7 +41,7 @@ if(HAVE_AVX2)
   set_property(SOURCE sha256_avx2.cpp PROPERTY
     COMPILE_OPTIONS ${AVX2_CXXFLAGS}
   )
-endif()
+include()
 
 if(HAVE_SSE41 AND HAVE_X86_SHANI)
   target_compile_definitions(bitcoin_crypto PRIVATE ENABLE_SSE41 ENABLE_X86_SHANI)
@@ -49,7 +49,7 @@ if(HAVE_SSE41 AND HAVE_X86_SHANI)
   set_property(SOURCE sha256_x86_shani.cpp PROPERTY
     COMPILE_OPTIONS ${SSE41_CXXFLAGS} ${X86_SHANI_CXXFLAGS}
   )
-endif()
+include()
 
 if(HAVE_ARM_SHANI)
   target_compile_definitions(bitcoin_crypto PRIVATE ENABLE_ARM_SHANI)
