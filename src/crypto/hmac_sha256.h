@@ -29,3 +29,4 @@ public:
 };
 
 #endif // BITCOIN_CRYPTO_HMAC_SHA256_H
+  
