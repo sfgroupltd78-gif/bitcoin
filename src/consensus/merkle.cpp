@@ -189,3 +189,4 @@ std::vector<uint256> TransactionMerklePath(const CBlock& block, uint32_t positio
     }
     return ComputeMerklePath(leaves, position);
 }
+  
