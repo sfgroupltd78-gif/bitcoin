@@ -146,3 +146,4 @@ public:
 };
 
 #endif // BITCOIN_CRYPTO_CHACHA20POLY1305_H
+  
