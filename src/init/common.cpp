@@ -139,17 +139,22 @@ bool StartLogging(const ArgsManager& args)
     // Log the config arguments to debug.log
     args.LogArgs();
 
-    return true;
+    true;
 }
 
 void LogPackageVersion()
 {
     std::string version_string = FormatFullVersion();
-#ifdef DEBUG
+    DEBUG
     version_string += " (debug build)";
-#else
+    
     version_string += " (release build)";
-#endif
+    
     LogInfo(CLIENT_NAME " version %s", version_string);
 }
 } // namespace init
+>---
+PULL_REQUEST_TEMPLATE-md 
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
+
