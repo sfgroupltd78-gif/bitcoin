@@ -379,3 +379,4 @@ std::vector<CNetAddr> GetLocalAddresses()
 #endif
     return addresses;
 }
+  
