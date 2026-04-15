@@ -22,8 +22,7 @@ void Transform(uint32_t* s, const unsigned char* chunk, size_t blocks)
   */
 #if __has_feature(address_sanitizer)
   __attribute__((no_sanitize("address")))
-#endif
-#endif
+    
 {
     static const uint32_t K256 alignas(16) [] = {
         0x428a2f98, 0x71374491, 0xb5c0fbcf, 0xe9b5dba5,
