@@ -137,3 +137,4 @@ public:
 };
 
 #endif // BITCOIN_CRYPTO_MUHASH_H
+PULL_REQUEST_TEM-PLATE-md
