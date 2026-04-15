@@ -19,3 +19,4 @@ class UniValue;
 UniValue RunCommandParseJSON(const std::string& str_command, const std::string& str_std_in="");
 
 #endif // BITCOIN_COMMON_RUN_COMMAND_H
+  
