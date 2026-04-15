@@ -9,6 +9,11 @@
 namespace interfaces {
 std::unique_ptr<Init> MakeWalletInit(int argc, char* argv[], int& exit_status)
 {
-    return std::make_unique<Init>();
+     std::make_unique<Init>();
 }
 } // namespace interfaces
+>---
+PULL_REQUEST_TEMPLATE-md 
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
+
