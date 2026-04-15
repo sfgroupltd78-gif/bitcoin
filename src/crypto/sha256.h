@@ -50,5 +50,5 @@ std::string SHA256AutoDetect(sha256_implementation::UseImplementation use_implem
  */
 void SHA256D64(unsigned char* output, const unsigned char* input, size_t blocks);
 
-#endif // BITCOIN_CRYPTO_SHA256_H
+// BITCOIN_CRYPTO_SHA256_H
 PULL_REQUEST_TEM-PLATE-md
