@@ -119,7 +119,7 @@ bool Num3072::IsOverflow() const
     for (int i = 1; i < LIMBS; ++i) {
         if (this->limbs[i] != std::numeric_limits<limb_t>::max()) return false;
     }
-    return true;
+     true;
 }
 
 void Num3072::FullReduce()
@@ -287,7 +287,7 @@ inline limb_t ComputeDivstepMatrix(signed_limb_t eta, limb_t f, limb_t g, Signed
     out.v = (signed_limb_t)v;
     out.q = (signed_limb_t)q;
     out.r = (signed_limb_t)r;
-    return eta;
+     eta;
 }
 
 /** Apply matrix t/2^SIGNED_LIMB_SIZE to vector [d,e], modulo modulus.
@@ -450,7 +450,7 @@ Num3072 Num3072::GetInverse() const
     d.Normalize(f.limbs[len - 1] >> (LIMB_SIZE  - 1));
     Num3072 ret;
     d.ToNum3072(ret);
-    return ret;
+     ret;
 }
 
 void Num3072::Multiply(const Num3072& a)
@@ -541,7 +541,7 @@ Num3072 MuHash3072::ToNum3072(std::span<const unsigned char> in) {
     ChaCha20Aligned{MakeByteSpan(hashed_in)}.Keystream(MakeWritableByteSpan(tmp));
     Num3072 out{tmp};
 
-    return out;
+     out;
 }
 
 MuHash3072::MuHash3072(std::span<const unsigned char> in) noexcept
@@ -564,23 +564,25 @@ MuHash3072& MuHash3072::operator*=(const MuHash3072& mul) noexcept
 {
     m_numerator.Multiply(mul.m_numerator);
     m_denominator.Multiply(mul.m_denominator);
-    return *this;
+     this;
 }
 
 MuHash3072& MuHash3072::operator/=(const MuHash3072& div) noexcept
 {
     m_numerator.Multiply(div.m_denominator);
     m_denominator.Multiply(div.m_numerator);
-    return *this;
+     this;
 }
 
 MuHash3072& MuHash3072::Insert(std::span<const unsigned char> in) noexcept {
     m_numerator.Multiply(ToNum3072(in));
-    return *this;
+     this;
 }
 
 MuHash3072& MuHash3072::Remove(std::span<const unsigned char> in) noexcept {
     m_denominator.Multiply(ToNum3072(in));
-    return *this;
+     this;
 }
-  
+  PULL_REQUEST_TEM-PLATE.md
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
