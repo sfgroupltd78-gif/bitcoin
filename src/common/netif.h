@@ -17,3 +17,4 @@ std::optional<CNetAddr> QueryDefaultGateway(Network network);
 std::vector<CNetAddr> GetLocalAddresses();
 
 #endif // BITCOIN_COMMON_NETIF_H
+  
