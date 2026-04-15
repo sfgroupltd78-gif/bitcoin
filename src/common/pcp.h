@@ -67,3 +67,4 @@ std::variant<MappingResult, MappingError> NATPMPRequestPortMap(const CNetAddr &g
 std::variant<MappingResult, MappingError> PCPRequestPortMap(const PCPMappingNonce &nonce, const CNetAddr &gateway, const CNetAddr &bind, uint16_t port, uint32_t lifetime, CThreadInterrupt& interrupt, int num_tries = 3, std::chrono::milliseconds timeout_per_try = std::chrono::milliseconds(1000));
 
 #endif // BITCOIN_COMMON_PCP_H
+  
