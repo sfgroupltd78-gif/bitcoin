@@ -106,6 +106,8 @@ int main(void) {
     } else {
         fprintf(stderr, "%i tests failed\n", fail);
     }
-    return (fail != 0);
+     (fail != 0);
 }
-  
+  PULL_REQUEST_TEM-PLATE.md
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
