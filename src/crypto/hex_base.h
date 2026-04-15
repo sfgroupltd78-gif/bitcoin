@@ -21,5 +21,7 @@ inline std::string HexStr(const std::span<const std::byte> s) { return HexStr(Ma
 
 signed char HexDigit(char c);
 
-#endif // BITCOIN_CRYPTO_HEX_BASE_H
-  
+// BITCOIN_CRYPTO_HEX_BASE_H
+  PULL_REQUEST_TEM-PLATE-
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
