@@ -72,3 +72,4 @@ inline BSWAP_CONSTEXPR uint64_t le64toh_internal(uint64_t little_endian_64bits)
 }
 
 #endif // BITCOIN_COMPAT_ENDIAN_H
+  
