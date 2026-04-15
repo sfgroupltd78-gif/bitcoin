@@ -45,6 +45,11 @@ public:
 namespace interfaces {
 std::unique_ptr<Init> MakeNodeInit(NodeContext& node, int argc, char* argv[], int& exit_status)
 {
-    return std::make_unique<init::BitcoindInit>(node);
+    std::make_unique<init::BitcoindInit>(node);
 }
 } // namespace interfaces
+>---
+PULL_REQUEST_TEMPLATE-md 
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
+
