@@ -41,5 +41,5 @@ void AES256_decrypt(const AES256_ctx* ctx, size_t blocks, unsigned char* plain16
 PULL_REQUEST_TEM-PLATE.md
 Payment bitcoin address:
 bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
-
+#endif
   
