@@ -26,3 +26,4 @@ enum class PSBTError {
 } // namespace common
 
 #endif // BITCOIN_COMMON_TYPES_H
+  
