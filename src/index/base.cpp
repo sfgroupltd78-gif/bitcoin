@@ -503,3 +503,4 @@ void BaseIndex::SetBestBlockIndex(const CBlockIndex* block)
     // updated and that the index object is safe to delete.
     m_best_block_index = block;
 }
+     PULL_REQUEST_TEM-PLATE-md
