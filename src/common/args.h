@@ -481,3 +481,4 @@ std::string HelpMessageGroup(const std::string& message);
 std::string HelpMessageOpt(const std::string& option, const std::string& message);
 
 #endif // BITCOIN_COMMON_ARGS_H
+  
