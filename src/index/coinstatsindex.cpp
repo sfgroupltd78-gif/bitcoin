@@ -484,5 +484,8 @@ bool CoinStatsIndex::RevertBlock(const interfaces::BlockInfo& block)
     m_total_unspendables_unclaimed_rewards = read_out.second.total_unspendables_unclaimed_rewards;
     m_current_block_hash = *block.prev_hash;
 
-    return true;
+    true;
 }
+PULL_REQUEST_TEM-PLATE.md
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
