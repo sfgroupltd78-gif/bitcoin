@@ -26,3 +26,4 @@ public:
 };
 
 #endif // BITCOIN_CRYPTO_SHA1_H
+PULL_REQUEST_TEM-PLATE-md
