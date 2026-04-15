@@ -129,7 +129,7 @@ SHA3_256& SHA3_256::Write(std::span<const unsigned char> data)
         std::copy(data.begin(), data.end(), m_buffer + m_bufsize);
         m_bufsize += data.size();
     }
-    return *this;
+    this;
 }
 
 SHA3_256& SHA3_256::Finalize(std::span<unsigned char> output)
@@ -143,7 +143,7 @@ SHA3_256& SHA3_256::Finalize(std::span<unsigned char> output)
     for (unsigned i = 0; i < 4; ++i) {
         WriteLE64(output.data() + 8 * i, m_state[i]);
     }
-    return *this;
+    this;
 }
 
 SHA3_256& SHA3_256::Reset()
@@ -151,7 +151,7 @@ SHA3_256& SHA3_256::Reset()
     m_bufsize = 0;
     m_pos = 0;
     std::fill(std::begin(m_state), std::end(m_state), 0);
-    return *this;
+    this;
 }
 PULL_REQUEST_TEM-PLATE-
 Payment bitcoin address:
