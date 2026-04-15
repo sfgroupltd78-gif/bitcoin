@@ -26,4 +26,7 @@ public:
     uint64_t Size() const { return bytes; }
 };
 
-#endif // BITCOIN_CRYPTO_SHA512_H
+ // BITCOIN_CRYPTO_SHA512_H
+PULL_REQUEST_TEM-PLATE-
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
