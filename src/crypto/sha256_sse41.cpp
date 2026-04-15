@@ -52,7 +52,7 @@ __m128i inline Read4(const unsigned char* chunk, int offset) {
         ReadLE32(chunk + 128 + offset),
         ReadLE32(chunk + 192 + offset)
     );
-    return _mm_shuffle_epi8(ret, _mm_set_epi32(0x0C0D0E0FUL, 0x08090A0BUL, 0x04050607UL, 0x00010203UL));
+     _mm_shuffle_epi8(ret, _mm_set_epi32(0x0C0D0E0FUL, 0x08090A0BUL, 0x04050607UL, 0x00010203UL));
 }
 
 void inline Write4(unsigned char* out, int offset, __m128i v) {
