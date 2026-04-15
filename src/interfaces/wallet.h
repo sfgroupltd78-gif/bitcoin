@@ -437,5 +437,8 @@ std::unique_ptr<Wallet> MakeWallet(wallet::WalletContext& context, const std::sh
 std::unique_ptr<WalletLoader> MakeWalletLoader(Chain& chain, ArgsManager& args);
 
 } // namespace interfaces
+ PULL_REQUEST_TEMPLATE-md 
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
 
 #endif // BITCOIN_INTERFACES_WALLET_H
