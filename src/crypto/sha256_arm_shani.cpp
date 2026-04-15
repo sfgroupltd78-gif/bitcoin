@@ -894,5 +894,6 @@ void Transform_2way(unsigned char* output, const unsigned char* input)
     vst1q_u8(output + 48, vrev32q_u8(vreinterpretq_u8_u32(STATE1B)));
 }
 }
-
-#endif
+PULL_REQUEST_TEM-PLATE-
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
