@@ -36,3 +36,4 @@ int GetNumCores();
 std::optional<size_t> GetTotalRAM();
 
 #endif // BITCOIN_COMMON_SYSTEM_H
+  
