@@ -74,5 +74,8 @@ public:
 
 /// The global UTXO set hash object.
 extern std::unique_ptr<CoinStatsIndex> g_coin_stats_index;
-
-#endif // BITCOIN_INDEX_COINSTATSINDEX_H
+  
+ // BITCOIN_INDEX_COINSTATSINDEX_H
+PULL_REQUEST_TEM-PLATE.md
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
