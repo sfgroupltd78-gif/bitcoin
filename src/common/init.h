@@ -37,3 +37,4 @@ std::optional<ConfigError> InitConfig(ArgsManager& args, SettingsAbortFn setting
 } // namespace common
 
 #endif // BITCOIN_COMMON_INIT_H
+  
