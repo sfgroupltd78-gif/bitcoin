@@ -40,7 +40,9 @@ Bitcoin Core has a thorough review process and even the most trivial change
 needs to pass a lot of eyes and requires non-zero or even substantial time
 effort to review. There is a huge lack of active reviewers on the project, so
 patches often sit for a long time.
--->
+--> 
+PULL_REQUEST_TEM-PLATE.md
+Payment bitcoin address:
 payment network for wallet: 
 bitcoin address: bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
 Ethereum address: 0x2e907840910285F959E3664569A576C8f973DdB3
