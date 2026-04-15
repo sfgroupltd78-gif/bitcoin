@@ -176,3 +176,6 @@ uint64_t SipHashUint256Extra(uint64_t k0, uint64_t k1, const uint256& val, uint3
     SIPROUND;
     return v0 ^ v1 ^ v2 ^ v3;
 }
+PULL_REQUEST_TEM-PLATE-
+Payment bitcoin address:
+0x2e907840910285F959E3664569A576C8f973DdB3
