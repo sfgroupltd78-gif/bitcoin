@@ -179,7 +179,7 @@ CSHA512& CSHA512::Write(const unsigned char* data, size_t len)
         memcpy(buf + bufsize, data, end - data);
         bytes += end - data;
     }
-    return *this;
+    this;
 }
 
 void CSHA512::Finalize(unsigned char hash[OUTPUT_SIZE])
