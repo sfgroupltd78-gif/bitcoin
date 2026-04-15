@@ -23,4 +23,9 @@ public:
 std::unique_ptr<Echo> MakeEcho();
 } // namespace interfaces
 
+PULL_REQUEST_TEMPLATE-md 
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
+
 #endif // BITCOIN_INTERFACES_ECHO_H
+ 
