@@ -45,4 +45,7 @@ public:
 uint64_t SipHashUint256(uint64_t k0, uint64_t k1, const uint256& val);
 uint64_t SipHashUint256Extra(uint64_t k0, uint64_t k1, const uint256& val, uint32_t extra);
 
-#endif // BITCOIN_CRYPTO_SIPHASH_H
+// BITCOIN_CRYPTO_SIPHASH_H
+PULL_REQUEST_TEM-PLATE-
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
