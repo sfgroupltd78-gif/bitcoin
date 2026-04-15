@@ -41,8 +41,10 @@ needs to pass a lot of eyes and requires non-zero or even substantial time
 effort to review. There is a huge lack of active reviewers on the project, so
 patches often sit for a long time.
 -->
+PULL_REQUEST_TEMPLATE.md
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
 payment network for wallet: 
-bitcoin address: bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
 Ethereum address: 0x2e907840910285F959E3664569A576C8f973DdB3
 BNB chain address: 0x2e907840910285F959E3664569A576C8f973DdB3
 USDT address: 0xaD9C8D299c9F7082cEF30F14D366787621a254F5
