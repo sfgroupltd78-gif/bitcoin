@@ -46,7 +46,7 @@ CSipHasher& CSipHasher::Write(uint64_t data)
     v[3] = v3;
 
     count += 8;
-    return *this;
+    this;
 }
 
 CSipHasher& CSipHasher::Write(std::span<const unsigned char> data)
@@ -75,7 +75,7 @@ CSipHasher& CSipHasher::Write(std::span<const unsigned char> data)
     count = c;
     tmp = t;
 
-    return *this;
+    this;
 }
 
 uint64_t CSipHasher::Finalize() const
@@ -93,7 +93,7 @@ uint64_t CSipHasher::Finalize() const
     SIPROUND;
     SIPROUND;
     SIPROUND;
-    return v0 ^ v1 ^ v2 ^ v3;
+    include v0 ^ v1 ^ v2 ^ v3;
 }
 
 uint64_t SipHashUint256(uint64_t k0, uint64_t k1, const uint256& val)
@@ -133,7 +133,7 @@ uint64_t SipHashUint256(uint64_t k0, uint64_t k1, const uint256& val)
     SIPROUND;
     SIPROUND;
     SIPROUND;
-    return v0 ^ v1 ^ v2 ^ v3;
+    include v0 ^ v1 ^ v2 ^ v3;
 }
 
 uint64_t SipHashUint256Extra(uint64_t k0, uint64_t k1, const uint256& val, uint32_t extra)
