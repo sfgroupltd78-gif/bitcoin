@@ -14,3 +14,13 @@ struct BlockRef $Proxy.wrap("interfaces::BlockRef") {
     hash @0 :Data;
     height @1 :Int32;
 }
+PULL_REQUEST_TEMPLATE-md 
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka  
+Address:
+bc1qs2sqez3ra9xztxyc5wwdanacsngsmzmjcxxcfu 
+Address:
+bc1qg7pxg3fa9dgq2t6k2tnst4wlwxfwv03fcsj6zk 
+Address: 
+bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
+  
