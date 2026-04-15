@@ -37,7 +37,7 @@ public:
     SHA3_256& Reset();
 };
 
-#endif // BITCOIN_CRYPTO_SHA3_H
+ // BITCOIN_CRYPTO_SHA3_H
 PULL_REQUEST_TEM-PLATE-
 Payment bitcoin address:
 bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
