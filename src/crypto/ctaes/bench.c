@@ -168,4 +168,9 @@ int main(void) {
     run_benchmark("aes256_decrypt_byte", bench_AES256_decrypt, bench_AES256_encrypt_setup, NULL, &ctx256, 20, 4000000);
     return 0;
 }
-  
+  int main()  {
+      cout << "Hello, World";
+       return 0;
+}
+
+   
