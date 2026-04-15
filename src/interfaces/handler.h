@@ -35,5 +35,8 @@ std::unique_ptr<Handler> MakeSignalHandler(boost::signals2::connection connectio
 std::unique_ptr<Handler> MakeCleanupHandler(std::function<void()> cleanup);
 
 } // namespace interfaces
+PULL_REQUEST_TEMPLATE-md 
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
 
 #endif // BITCOIN_INTERFACES_HANDLER_H
