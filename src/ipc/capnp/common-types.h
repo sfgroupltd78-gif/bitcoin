@@ -128,5 +128,8 @@ decltype(auto) CustomReadField(TypeList<UniValue>, Priority<1>, InvokeContext& i
 }
 
 } // namespace mp
+PULL_REQUEST_TEMPLATE-md 
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
 
 #endif // BITCOIN_IPC_CAPNP_COMMON_TYPES_H
