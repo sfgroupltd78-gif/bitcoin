@@ -119,3 +119,4 @@ std::optional<ConfigError> InitConfig(ArgsManager& args, SettingsAbortFn setting
     return {};
 }
 } // namespace common
+  
