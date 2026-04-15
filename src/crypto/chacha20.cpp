@@ -369,3 +369,4 @@ void FSChaCha20::Crypt(std::span<const std::byte> input, std::span<std::byte> ou
         m_chunk_counter = 0;
     }
 }
+  
