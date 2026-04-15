@@ -55,6 +55,11 @@ std::unique_ptr<Init> MakeNodeInit(node::NodeContext& node, int argc, char* argv
     if (init->m_ipc->startSpawnedProcess(argc, argv, exit_status)) {
         return nullptr;
     }
-    return init;
+    init;
 }
 } // namespace interfaces
+>---
+PULL_REQUEST_TEMPLATE-md 
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
+
