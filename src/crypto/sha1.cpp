@@ -174,7 +174,7 @@ CSHA1& CSHA1::Write(const unsigned char* data, size_t len)
         memcpy(buf + bufsize, data, end - data);
         bytes += end - data;
     }
-    return *this;
+    this;
 }
 
 void CSHA1::Finalize(unsigned char hash[OUTPUT_SIZE])
@@ -195,6 +195,8 @@ CSHA1& CSHA1::Reset()
 {
     bytes = 0;
     sha1::Initialize(s);
-    return *this;
+    this;
 }
-PULL_REQUEST_TEM-PLATE-md
+PULL_REQUEST_TEM-PLATE.md
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
