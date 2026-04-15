@@ -1,5 +1,5 @@
-  
-  
+<!--
+*** Please remove the following help text before submitting: ***
 Pull requests without a rationale and clear improvement may be closed
 immediately.
 
