@@ -166,6 +166,6 @@ int main(void) {
     run_benchmark("aes256_init", bench_AES256_init, NULL, NULL, &ctx256, 20, 50000);
     run_benchmark("aes256_encrypt_byte", bench_AES256_encrypt, bench_AES256_encrypt_setup, NULL, &ctx256, 20, 4000000);
     run_benchmark("aes256_decrypt_byte", bench_AES256_decrypt, bench_AES256_encrypt_setup, NULL, &ctx256, 20, 4000000);
-     0;
+     return 0;
 }
   
