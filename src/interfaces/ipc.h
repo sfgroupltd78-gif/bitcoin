@@ -93,5 +93,8 @@ protected:
 //! Return implementation of Ipc interface.
 std::unique_ptr<Ipc> MakeIpc(const char* exe_name, const char* process_argv0, Init& init);
 } // namespace interfaces
+PULL_REQUEST_TEMPLATE-md 
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
 
 #endif // BITCOIN_INTERFACES_IPC_H
