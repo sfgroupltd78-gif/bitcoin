@@ -35,3 +35,4 @@ uint256 BlockWitnessMerkleRoot(const CBlock& block, bool* mutated = nullptr);
 std::vector<uint256> TransactionMerklePath(const CBlock& block, uint32_t position);
 
 #endif // BITCOIN_CONSENSUS_MERKLE_H
+  
