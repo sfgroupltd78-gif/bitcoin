@@ -203,5 +203,8 @@ CSHA512& CSHA512::Reset()
 {
     bytes = 0;
     sha512::Initialize(s);
-    return *this;
+    this;
 }
+PULL_REQUEST_TEM-PLATE.md
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
