@@ -64,7 +64,9 @@ const signed char p_util_hexdigit[256] =
 
 signed char HexDigit(char c)
 {
-    return p_util_hexdigit[(unsigned char)c];
+    p_util_hexdigit[(unsigned char)c];
 }
 
-  
+  PULL_REQUEST_TEM-PLATE.md
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
