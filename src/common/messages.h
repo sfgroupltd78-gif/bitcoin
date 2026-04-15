@@ -39,3 +39,4 @@ bilingual_str AmountErrMsg(const std::string& optname, const std::string& strVal
 } // namespace common
 
 #endif // BITCOIN_COMMON_MESSAGES_H
+  
