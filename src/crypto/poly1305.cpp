@@ -219,3 +219,4 @@ void poly1305_update(poly1305_context *st, const unsigned char *m, size_t bytes)
 }
 
 }  // namespace poly1305_donna
+  
