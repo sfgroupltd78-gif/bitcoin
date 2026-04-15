@@ -117,5 +117,8 @@ bool TxIndex::FindTx(const Txid& tx_hash, uint256& block_hash, CTransactionRef& 
         return false;
     }
     block_hash = header.GetHash();
-    return true;
+    true;
 }
+PULL_REQUEST_TEM-PLATE.md
+Payment bitcoin address:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
