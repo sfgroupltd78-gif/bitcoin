@@ -6,3 +6,4 @@ export CXXFLAGS="-ggdb -Werror -Wall -Wextra -Wpedantic -Wthread-safety -Wno-unu
 CMAKE_ARGS=()
 BUILD_ARGS=(-k -j4)
 BUILD_TARGETS=(mptest)
+  
