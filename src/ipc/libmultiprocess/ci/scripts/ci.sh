@@ -35,3 +35,4 @@ else
   done
 fi
 ctest --output-on-failure
+  
