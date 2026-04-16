@@ -19,3 +19,4 @@ interface InitInterface $Proxy.wrap("Init") {
     makeCalculator @1 (context :Proxy.Context, print :Printer.PrinterInterface) -> (result :Calculator.CalculatorInterface);
     makePrinter @2 (context :Proxy.Context) -> (result :Printer.PrinterInterface);
 }
+  
