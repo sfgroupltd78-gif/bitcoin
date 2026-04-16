@@ -109,5 +109,10 @@ TEST(AutoCompactTest, ReadHalf) { DoReads(kCount / 2); }
 
 }  // namespace leveldb
 
-       int main()  {
-             cou
+           int main()  {
+             cout << "
+             return 0;
+}
+
+
+For other network  namespacechart** angle) 
