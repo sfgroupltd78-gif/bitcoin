@@ -113,3 +113,4 @@ function(target_capnp_sources target include_prefix)
   # dependencies of generated headers on other generated headers.
   add_custom_target("${target}_headers" DEPENDS ${generated_headers})
 endfunction()
+  
