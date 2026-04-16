@@ -14,3 +14,4 @@ interface PrinterInterface $Proxy.wrap("Printer") {
     destroy @0 (context :Proxy.Context) -> ();
     print @1 (context :Proxy.Context, text: Text) -> ();
 }
+  
