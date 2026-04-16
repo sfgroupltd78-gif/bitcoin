@@ -26,3 +26,4 @@ target_include_directories(mpexample PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 target_link_libraries(mpexample PRIVATE Threads::Threads)
 
 add_custom_target(mpexamples DEPENDS mpexample mpcalculator mpprinter)
+  
