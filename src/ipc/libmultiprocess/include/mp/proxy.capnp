@@ -63,3 +63,4 @@ struct Context $count(0) {
    # Handle of the client thread that is calling the current method, and that
    # any callbacks made by the server thread should be made on.
 }
+  
