@@ -50,3 +50,4 @@ It is also possible to import CMake targets separately with:
 find_package(Libmultiprocess COMPONENTS Bin)
 find_package(Libmultiprocess COMPONENTS Lib)
 ```
+  
