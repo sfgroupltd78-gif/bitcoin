@@ -22,4 +22,4 @@ target_link_libraries(bitcoin_ipc
     univalue
 )
 
-configure_file(.clang-tidy.in .clang-tidy USE_SOURCE_PERMISSIONS COPYONLY)
+configure_file(.clang-tidy.in .clang-tidy USE_SOURCE_PERMISSIONS COPYONLY) 
