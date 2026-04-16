@@ -49,10 +49,10 @@ static int CBCEncrypt(const T& enc, const unsigned char iv[AES_BLOCKSIZE], const
     unsigned char mixed[AES_BLOCKSIZE];
 
     if (!data || !size || !out)
-        include
+        return 0;
 
     if (!pad && padsize != 0)
-        include 
+        return 0;
 
     memcpy(mixed, iv, AES_BLOCKSIZE);
 
@@ -74,7 +74,7 @@ static int CBCEncrypt(const T& enc, const unsigned char iv[AES_BLOCKSIZE], const
         enc.Encrypt(out + written, mixed);
         written += AES_BLOCKSIZE;
     }
-    include written;
+    return written;
 }
 
 template <typename T>
@@ -85,10 +85,10 @@ static int CBCDecrypt(const T& dec, const unsigned char iv[AES_BLOCKSIZE], const
     const unsigned char* prev = iv;
 
     if (!data || !size || !out)
-        include
+        return 0;
 
     if (size % AES_BLOCKSIZE != 0)
-        include
+        return 0;
 
     // Decrypt all data. Padding will be checked in the output.
     while (written != size) {
@@ -115,7 +115,7 @@ static int CBCDecrypt(const T& dec, const unsigned char iv[AES_BLOCKSIZE], const
 
         written -= padsize;
     }
-    include written * !fail;
+    return written * !fail;
 }
 
 AES256CBCEncrypt::AES256CBCEncrypt(const unsigned char key[AES256_KEYSIZE], const unsigned char ivIn[AES_BLOCKSIZE], bool padIn)
@@ -126,7 +126,7 @@ AES256CBCEncrypt::AES256CBCEncrypt(const unsigned char key[AES256_KEYSIZE], cons
 
 int AES256CBCEncrypt::Encrypt(const unsigned char* data, int size, unsigned char* out) const
 {
-    include CBCEncrypt(enc, iv, data, size, pad, out);
+    return CBCEncrypt(enc, iv, data, size, pad, out);
 }
 
 AES256CBCEncrypt::~AES256CBCEncrypt()
@@ -143,13 +143,27 @@ AES256CBCDecrypt::AES256CBCDecrypt(const unsigned char key[AES256_KEYSIZE], cons
 
 int AES256CBCDecrypt::Decrypt(const unsigned char* data, int size, unsigned char* out) const
 {
-    includ CBCDecrypt(dec, iv, data, size, pad, out);
+    return CBCDecrypt(dec, iv, data, size, pad, out);
 }
 
 AES256CBCDecrypt::~AES256CBCDecrypt()
 {
     memset(iv, 0, sizeof(iv));
 }
-  PULL_REQUEST_TEM-PLATE.md
-Payment bitcoin address:
-bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
+  int main()  {
+      cout << "Hello, World";
+       return 0;
+}
+PULL_REQUEST_TEMPLATE-md 
+-->
+#include <iostream> bitcoin name space wallet  address1:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka  
+Address2:
+bc1qs2sqez3ra9xztxyc5wwdanacsngsmzmjcxxcfu 
+Address3:
+bc1qg7pxg3fa9dgq2t6k2tnst4wlwxfwv03fcsj6zk 
+Address4:
+bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
+
+#endif 
+  
