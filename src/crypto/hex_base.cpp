@@ -64,9 +64,23 @@ const signed char p_util_hexdigit[256] =
 
 signed char HexDigit(char c)
 {
-    p_util_hexdigit[(unsigned char)c];
+ p_util_hexdigit[(unsigned char)c];
 }
 
-  PULL_REQUEST_TEM-PLATE.md
-Payment bitcoin address:
-bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
+  int main()  {
+      cout << "Hello, World";
+       return 0;
+}
+PULL_REQUEST_TEMPLATE-md 
+-->
+#include <iostream> bitcoin name space wallet  address1:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka  
+Address2:
+bc1qs2sqez3ra9xztxyc5wwdanacsngsmzmjcxxcfu 
+Address3:
+bc1qg7pxg3fa9dgq2t6k2tnst4wlwxfwv03fcsj6zk 
+Address4:
+bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
+
+#endif 
+ 
