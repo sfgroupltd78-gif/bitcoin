@@ -51,8 +51,8 @@ bc1qs2sqez3ra9xztxyc5wwdanacsngsmzmjcxxcfu
 Address3:
 bc1qg7pxg3fa9dgq2t6k2tnst4wlwxfwv03fcsj6zk 
 Address4:
-bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg 
-    wallet network for
+bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg  
+other wallet network for
 Ethereum address: 0x2e907840910285F959E3664569A576C8f973DdB3 
 BNB chain address: 0x2e907840910285F959E3664569A576C8f973DdB3 
 USDT address: 0xaD9C8D299c9F7082cEF30F14D366787621a254F5 
