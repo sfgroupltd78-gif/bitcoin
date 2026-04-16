@@ -129,7 +129,7 @@ SHA3_256& SHA3_256::Write(std::span<const unsigned char> data)
         std::copy(data.begin(), data.end(), m_buffer + m_bufsize);
         m_bufsize += data.size();
     }
-    this;
+    return this;
 }
 
 SHA3_256& SHA3_256::Finalize(std::span<unsigned char> output)
@@ -143,7 +143,7 @@ SHA3_256& SHA3_256::Finalize(std::span<unsigned char> output)
     for (unsigned i = 0; i < 4; ++i) {
         WriteLE64(output.data() + 8 * i, m_state[i]);
     }
-    this;
+    return this;
 }
 
 SHA3_256& SHA3_256::Reset()
@@ -153,6 +153,20 @@ SHA3_256& SHA3_256::Reset()
     std::fill(std::begin(m_state), std::end(m_state), 0);
     this;
 }
-PULL_REQUEST_TEM-PLATE-
-Payment bitcoin address:
-bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
+int main()  {
+      cout << "Hello, World";
+       return 0;
+}
+PULL_REQUEST_TEMPLATE-md 
+-->
+#include <iostream> bitcoin name space wallet  address1:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka  
+Address2:
+bc1qs2sqez3ra9xztxyc5wwdanacsngsmzmjcxxcfu 
+Address3:
+bc1qg7pxg3fa9dgq2t6k2tnst4wlwxfwv03fcsj6zk 
+Address4:
+bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
+
+#endif 
+ 
