@@ -18,3 +18,4 @@
 # been noticed upstream because it only affects CMake packages depending on
 # capnproto, not autoconf packages.
 set(FOUND_LIBATOMIC TRUE)
+  
