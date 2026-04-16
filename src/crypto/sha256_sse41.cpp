@@ -313,11 +313,20 @@ void Transform_4way(unsigned char* out, const unsigned char* in)
     Write4(out, 16, Add(e, K(0x510e527ful)));
     Write4(out, 20, Add(f, K(0x9b05688cul)));
     Write4(out, 24, Add(g, K(0x1f83d9abul)));
-    Write4(out, 28, Add(h, K(0x5be0cd19ul)));
+    Write4(out, 28, Add(h, 
+  int main()  {
+      cout << "Hello, World";
+       return 0;
 }
+PULL_REQUEST_TEMPLATE-md 
+-->
+#include <iostream> bitcoin name space wallet  address1:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka  
+Address2:
+bc1qs2sqez3ra9xztxyc5wwdanacsngsmzmjcxxcfu 
+Address3:
+bc1qg7pxg3fa9dgq2t6k2tnst4wlwxfwv03fcsj6zk 
+Address4:
+bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
 
-}
-
-PULL_REQUEST_TEM-PLATE-
-Payment bitcoin address:
-bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka
+#endif 
