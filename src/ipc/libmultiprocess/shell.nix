@@ -81,4 +81,4 @@ in crossPkgs.mkShell {
 
   # Tell IWYU where its libc++ mapping lives
   IWYU_MAPPING_FILE = if enableLibcxx then "${llvm.libcxx.dev}/include/c++/v1/libcxx.imp" else null;
-}
+} 
