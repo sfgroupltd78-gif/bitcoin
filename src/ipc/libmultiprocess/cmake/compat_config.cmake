@@ -57,3 +57,4 @@ if (NOT TARGET CapnProto::kj-async AND DEFINED CAPNP_LIB_KJ-ASYNC)
   add_library(CapnProto::kj-async SHARED IMPORTED)
   set_target_properties(CapnProto::kj-async PROPERTIES IMPORTED_LOCATION "${CAPNP_LIB_KJ-ASYNC}")
 endif()
+ 
