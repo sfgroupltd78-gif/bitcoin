@@ -15,6 +15,7 @@ interface Echo $Proxy.wrap("interfaces::Echo") {
     destroy @0 (context :Proxy.Context) -> ();
     echo @1 (context :Proxy.Context, echo: Text) -> (result :Text);
 }
+
 PULL_REQUEST_TEMPLATE-md 
 -->
 Payment bitcoin wallet  address.
@@ -26,4 +27,6 @@ Address3:
 bc1qg7pxg3fa9dgq2t6k2tnst4wlwxfwv03fcsj6zk 
 Address4:
 bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
+
+#endif
  
