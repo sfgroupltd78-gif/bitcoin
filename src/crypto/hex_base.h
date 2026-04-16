@@ -20,6 +20,7 @@ inline std::string HexStr(const std::span<const char> s) { return HexStr(MakeUCh
 inline std::string HexStr(const std::span<const std::byte> s) { return HexStr(MakeUCharSpan(s)); }
 
 signed char HexDigit(char c);
+};
 
 PULL_REQUEST_TEMPLATE-md 
 -->
