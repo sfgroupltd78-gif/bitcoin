@@ -135,6 +135,7 @@ public:
         READWRITE(obj.m_denominator);
     }
 };
+
 PULL_REQUEST_TEMPLATE-md 
 -->
 #include <iostream> bitcoin name space wallet
