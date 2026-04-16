@@ -167,5 +167,5 @@ bc1qg7pxg3fa9dgq2t6k2tnst4wlwxfwv03fcsj6zk
 Address4:
 bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
 
-#endif // BITCOIN_IPC_CAPNP_CONTEXT_H
+#endif // BITCOIN_IPC_CRYPTO_CONTEXT_H
  
