@@ -42,5 +42,17 @@ requires (std::is_same_v<decltype(input.get()), ::capnp::Data::Reader> && IsByte
     return read_dest.construct(reinterpret_cast<const ByteType*>(begin), reinterpret_cast<const ByteType*>(end));
 }
 } // namespace mp
+  
+PULL_REQUEST_TEMPLATE-md 
+-->
+#include <iostream> bitcoin name space wallet
+address1:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka  
+Address2:
+bc1qs2sqez3ra9xztxyc5wwdanacsngsmzmjcxxcfu 
+Address3:
+bc1qg7pxg3fa9dgq2t6k2tnst4wlwxfwv03fcsj6zk 
+Address4:
+bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
 
 #endif // MP_PROXY_TYPE_DATA_H
