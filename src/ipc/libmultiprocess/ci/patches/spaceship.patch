@@ -27,3 +27,4 @@ index 193442aa..17835892 100644
    inline bool operator< (const StringPtr& other) const;
    inline bool operator> (const StringPtr& other) const { return other < *this; }
    inline bool operator<=(const StringPtr& other) const { return !(other < *this); }
+  
