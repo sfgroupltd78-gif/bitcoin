@@ -14,3 +14,4 @@ interface CalculatorInterface $Proxy.wrap("Calculator") {
     destroy @0 (context :Proxy.Context) -> ();
     solveEquation @1 (context :Proxy.Context, eqn: Text) -> ();
 }
+  
