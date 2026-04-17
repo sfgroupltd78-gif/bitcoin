@@ -208,3 +208,20 @@ Some improvements that are still TODO:
 * <a name="myfootnote10">[10]</a> Ruffing, Tim, Moreno-Sanchez, Pedro, Aniket, Kate, *P2P Mixing and Unlinkable Bitcoin Transactions* NDSS Symposium 2017 [[URL]](https://eprint.iacr.org/2016/824) [[PDF]](https://eprint.iacr.org/2016/824.pdf)
 * <a name="myfootnote11">[11]</a> Y. Misky, A. Trachtenberg, R. Zippel. *Set Reconciliation with Nearly Optimal Communication Complexity.* Cornell University, 2000. [[URL]](https://ecommons.cornell.edu/handle/1813/5803) [[PDF]](https://ecommons.cornell.edu/bitstream/handle/1813/5803/2000-1813.pdf)
 * <a name="myfootnote12">[12]</a> Itoh, Toshiya, and Shigeo Tsujii. "A fast algorithm for computing multiplicative inverses in GF (2m) using normal bases." Information and computation 78, no. 3 (1988): 171-177. [[URL]](https://www.sciencedirect.com/science/article/pii/0890540188900247)
+*PULL_REQUEST_TEMPLATE-md 
+-->
+#include <iostream> bitcoin name space wallet
+address1:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka  
+Address2:
+bc1qs2sqez3ra9xztxyc5wwdanacsngsmzmjcxxcfu 
+Address3:
+bc1qg7pxg3fa9dgq2t6k2tnst4wlwxfwv03fcsj6zk 
+Address4:
+bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg 
+
+For other network  namespace wallet Ethereum         
+address: 
+tUhjxdfyxzi92NNsAJn5zdWCvo26cU7AiDbT75Rg1qv
+
+#endif
