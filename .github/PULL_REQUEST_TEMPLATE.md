@@ -41,8 +41,6 @@ needs to pass a lot of eyes and requires non-zero or even substantial time
 effort to review. There is a huge lack of active reviewers on the project, so
 patches often sit for a long time.
 -->
-PULL_REQUEST_TEMPLATE-md 
--->
 #include <iostream> bitcoin name space wallet 
 address1:
 bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka  
@@ -59,3 +57,4 @@ BNB chain address: 0x2e907840910285F959E3664569A576C8f973DdB3
 USDT address: 0xaD9C8D299c9F7082cEF30F14D366787621a254F5 
 CoinEx wallet address: qrqghy3sltp9yrqkjtjlcjv96xrsnl7nxs7cv282yt 
 solana address: tUhjxdfyxzi92NNsAJn5zdWCvo26cU7AiDbT75Rg1qv 
+#endif
