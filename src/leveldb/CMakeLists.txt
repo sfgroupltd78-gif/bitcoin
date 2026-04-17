@@ -460,3 +460,4 @@ if(LEVELDB_INSTALL)
     DESTINATION "${CMAKE_INSTALL_LIBDIR}/cmake/leveldb"
   )
 endif(LEVELDB_INSTALL)
+  
