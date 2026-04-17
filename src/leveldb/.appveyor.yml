@@ -33,3 +33,8 @@ build_script:
 
 test_script:
   - cd build && ctest --verbose --build-config "%CONFIGURATION%" && cd ..
+test_script:
+  - cd build
+  - ctest --verbose
+  - cd ..
+  - echo "Test done"
