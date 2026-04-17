@@ -32,4 +32,4 @@ build_script:
   - cd ..
 
 test_script:
-  - cd build && ctest --verbose --build-config "%CONFIGURATION%" && cd ..
+  - cd build && ctest --verbose --build-config "%CONFIGURATION%" && cd .. 
