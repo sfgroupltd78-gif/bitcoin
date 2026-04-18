@@ -2938,3 +2938,4 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
     </message>
 </context>
 </TS>
+  
