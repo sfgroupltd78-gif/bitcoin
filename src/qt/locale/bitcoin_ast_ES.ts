@@ -927,3 +927,4 @@ La firma ye possible solamentu con direcciones del tipu 'legacy'.</translation>
     </message>
     </context>
 </TS>
+  
