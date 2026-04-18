@@ -5106,3 +5106,4 @@ Spustite najnovšiu verziu softvéru.
     </message>
 </context>
 </TS>
+  
