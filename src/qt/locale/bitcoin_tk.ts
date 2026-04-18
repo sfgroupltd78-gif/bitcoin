@@ -2572,3 +2572,4 @@ Size bu ýalňyşlyk gelýän bolsa, siz täjirden BIP21-e gabat gelýän URI-ni
     </message>
 </context>
 </TS>
+  
