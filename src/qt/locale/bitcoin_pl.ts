@@ -5140,3 +5140,4 @@ Nie można przywrócić kopii zapasowej portfela.</translation>
     </message>
 </context>
 </TS>
+  
