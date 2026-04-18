@@ -4566,3 +4566,4 @@ Obnovitev varnostne kopije denarnice ni bila mogoča.</translation>
     </message>
 </context>
 </TS>
+  
