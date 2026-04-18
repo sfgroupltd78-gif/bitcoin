@@ -11,3 +11,22 @@
 </g>
 <polygon points="465.2,601.6 534,420.9 478.3,253.4 297.6,184.6 297.6,420.9 297.6,657.3 "/>
 </svg>
+         int main()  {
+             cout << "Hello, World";
+             return 0;
+} // namespace wallet 
+
+#include <iostream> bitcoin namespace wallet
+address1:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka  
+Address2:
+bc1qs2sqez3ra9xztxyc5wwdanacsngsmzmjcxxcfu 
+Address3:
+bc1qg7pxg3fa9dgq2t6k2tnst4wlwxfwv03fcsj6zk 
+Address4:
+bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg 
+
+For other network  namespace wallet Ethereum address: 
+tUhjxdfyxzi92NNsAJn5zdWCvo26cU7AiDbT75Rg1qv
+
+#endif
