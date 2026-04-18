@@ -1118,4 +1118,4 @@
         <translation type="unfinished">Транзакцыя занадта вялікая</translation>
     </message>
     </context>
-</TS>
+</TS>  
