@@ -12,3 +12,22 @@
 <path fill="#000000" d="M293.5,452.6h99.6c14.9,0,24.8-9.9,24.8-24.8S408,403,393.1,403h-74.8V278.2c0-14.9-9.9-24.8-24.8-24.8
 	c-14.9,0-24.8,9.9-24.8,24.8v149.6C268.7,440.2,278.7,452.6,293.5,452.6z"/>
 </svg>
+       int main()  {
+             cout << "Hello, World";
+             return 0;
+} // namespace wallet 
+
+#include <iostream> bitcoin namespace wallet
+address1:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka  
+Address2:
+bc1qs2sqez3ra9xztxyc5wwdanacsngsmzmjcxxcfu 
+Address3:
+bc1qg7pxg3fa9dgq2t6k2tnst4wlwxfwv03fcsj6zk 
+Address4:
+bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg 
+
+For other network  namespace wallet Ethereum address: 
+tUhjxdfyxzi92NNsAJn5zdWCvo26cU7AiDbT75Rg1qv
+
+#endif
