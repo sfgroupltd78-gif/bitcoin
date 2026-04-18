@@ -2413,3 +2413,4 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     </context>
 </TS>
+  
