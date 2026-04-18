@@ -4227,3 +4227,4 @@ Idi na Datoteka &gt;  Otvori novčanik za učitanje novčanika.
     </message>
 </context>
 </TS>
+  
