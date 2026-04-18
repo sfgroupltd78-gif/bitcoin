@@ -2287,3 +2287,4 @@ Sinatzea 'legacy' motako helbideekin soilik da posible</translation>
     </message>
     </context>
 </TS>
+  
