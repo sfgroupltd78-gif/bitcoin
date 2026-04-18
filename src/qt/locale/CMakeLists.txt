@@ -11,3 +11,4 @@ else()
 endif()
 
 add_dependencies(bitcoinqt bitcoinqt_lrelease)
+  
