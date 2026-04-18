@@ -2826,3 +2826,4 @@ Migratsiya jarayoni ko'chirishdan oldin hamyonning zaxira nusxasini yaratadi. Us
     </message>
 </context>
 </TS>
+  
