@@ -4988,3 +4988,4 @@ Não foi possível restaurar a cópia de segurança da carteira.</translation>
     </message>
 </context>
 </TS>
+  
