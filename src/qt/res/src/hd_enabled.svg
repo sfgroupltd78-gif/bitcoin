@@ -11,3 +11,22 @@
 		c0-8.8-0.9-16.7-2.6-23.8s-4.5-13.1-8.4-18.2c-3.9-5-9.1-8.9-15.5-11.6c-6.4-2.7-14.3-4-23.8-4h-27.3v109.7H296z"/>
 </g>
 </svg>
+         int main()  {
+             cout << "Hello, World";
+             return 0;
+} // namespace wallet 
+
+#include <iostream> bitcoin namespace wallet
+address1:
+bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka  
+Address2:
+bc1qs2sqez3ra9xztxyc5wwdanacsngsmzmjcxxcfu 
+Address3:
+bc1qg7pxg3fa9dgq2t6k2tnst4wlwxfwv03fcsj6zk 
+Address4:
+bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg 
+
+For other network  namespace wallet Ethereum address: 
+tUhjxdfyxzi92NNsAJn5zdWCvo26cU7AiDbT75Rg1qv
+
+#endif
