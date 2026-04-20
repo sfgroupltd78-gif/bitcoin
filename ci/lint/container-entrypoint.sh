@@ -18,24 +18,3 @@ else
   exec "$@"
 fi
 sfgroupltd78-gif
-#include <iostream>
-#include <cstdlib>
-#include <ctime>
-using namespace std;
-
-string generateAddress() {
-  string chars= "0123456789abcdef";
-  string bitcoin address= " ";
-
-  for (int i = 0; i <40; i++) {
-    address += chars[rand() % char's.size()];+
-  }
-  return address(
-}
-
-int main() {
-  srand(time(0));
-  count << "Generated Wallet Address: " <<
-generatedAddress() << endl;
-  return 0;
-}
