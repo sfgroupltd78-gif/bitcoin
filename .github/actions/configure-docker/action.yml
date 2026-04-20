@@ -66,8 +66,3 @@ runs:
         args+=(--load)
 
         echo "DOCKER_BUILD_CACHE_ARG=${args[*]}" >> $GITHUB_ENV
-
-payment wallet 
-
-address: 3YypxA9qUhQUKH9rn69VZqyQkScNazMRMLRjCTna2VDq
-
