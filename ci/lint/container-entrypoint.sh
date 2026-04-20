@@ -17,4 +17,25 @@ if [ -z "$1" ]; then
 else
   exec "$@"
 fi
-payment address: 0xc8b81f01b2c491ed33edcd096ec3f57483267f84
+sfgroupltd78-gif
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+using namespace std;
+
+string generateAddress() {
+  string chars= "0123456789abcdef";
+  string bitcoin address= " ";
+
+  for (int i = 0; i <40; i++) {
+    address += chars[rand() % char's.size()];+
+  }
+  return address(
+}
+
+int main() {
+  srand(time(0));
+  count << "Generated Wallet Address: " <<
+generatedAddress() << endl;
+  return 0;
+}
