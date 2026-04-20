@@ -76,7 +76,7 @@ Thanks to everyone who directly contributed to this release:
 - Hennadii Stepanov
 - josibake
 - kehiy
-- MarcoFal
+- MarcoFale
 - Sjors Provoost
 
 #include <iostream>
