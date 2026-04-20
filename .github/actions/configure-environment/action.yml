@@ -25,4 +25,3 @@ runs:
       run: |
         source $FILE_ENV
         echo "CONTAINER_NAME=$CONTAINER_NAME" >> "$GITHUB_ENV"
-payment wallet address: bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
