@@ -76,7 +76,9 @@ Thanks to everyone who directly contributed to this release:
 - Hennadii Stepanov
 - josibake
 - kehiy
-- MarcoFalke
+- MarcoFal
+- Sjors Provoost
+
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
