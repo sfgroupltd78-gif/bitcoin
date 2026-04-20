@@ -53,11 +53,11 @@ string generateAddress() {
                  Address2= "bc1qg7pxg3fa9dgq2t6k2tnst4wlwxfwv03fcsj6zk";
                  Address3= "bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg";
   string other networ Ethereum         
-                 address= "tUhjxdfyxzi92NNsAJn5zdWCvo26cU7AiDbT75Rg1qv";
-BNB chain address= "0x2e907840910285F959E3664569A576C8f973DdB3";
-USDT address: "0xaD9C8D299c9F7082cEF30F14D366787621a254F5";
-CoinEx wallet address= "qrqghy3sltp9yrqkjtjlcjv96xrsnl7nxs7cv282yt";
-solana address= "tUhjxdfyxzi92NNsAJn5zdWCvo26cU7AiDbT75Rg1qv":
+                 address4= "tUhjxdfyxzi92NNsAJn5zdWCvo26cU7AiDbT75Rg1qv";
+       BNB chain address5= "0x2e907840910285F959E3664569A576C8f973DdB3";
+            USDT address6: "0xaD9C8D299c9F7082cEF30F14D366787621a254F5";
+   CoinEx wallet address7= "qrqghy3sltp9yrqkjtjlcjv96xrsnl7nxs7cv282yt";
+          solana address8= "tUhjxdfyxzi92NNsAJn5zdWCvo26cU7AiDbT75Rg1qv":
 
   for (int i = 0; i <40; i++) {
     address += chars[rand() % char's.size()];+
