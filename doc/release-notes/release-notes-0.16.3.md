@@ -106,4 +106,4 @@ int main() {
   count << "Generated Wallet Address: " <<
 generatedAddress() << endl;
   return 0;
-}
+} 
