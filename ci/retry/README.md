@@ -121,4 +121,4 @@ Last attempt passed:
 ### License
 
 Apache 2.0 - go nuts
-sfgroupltd78-hip/bitcoin
+sfgroupltd78-gif/bitcoin
