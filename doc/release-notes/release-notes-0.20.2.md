@@ -159,8 +159,4 @@ Thanks to everyone who directly contributed to this release:
 - MarcoFalke
 - Nadav Ivgi
 - Pieter Wuille
-- Suhas Daftuar
-
-As well as to everyone that helped with translations on
-[Transifex](https://www.transifex.com/bitcoin/bitcoin/).
-Credits go to the OpenSSL team for fixing the vulnerabilities quickly.
+- Suhas Daftuare
