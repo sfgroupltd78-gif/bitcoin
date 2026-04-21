@@ -96,3 +96,4 @@ with tempfile.NamedTemporaryFile('w', suffix='.h2m') as footer:
         print(f'Generating {outname}…')
         subprocess.run([help2man, '-N', '--version-string=' + verstr, '--include=' + footer.name, '-o', outname, abspath], check=True)
 ##
+sfgroupltd78-gif
