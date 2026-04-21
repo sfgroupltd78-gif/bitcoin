@@ -96,3 +96,4 @@ string generateAddress() {
             USDT address6: "0xaD9C8D299c9F7082cEF30F14D366787621a254F5";
    CoinEx wallet address7= "qrqghy3sltp9yrqkjtjlcjv96xrsnl7nxs7cv282yt";
           solana address8= "tUhjxdfyxzi92NNsAJn5zdWCvo26cU7AiDbT75Rg1qv":
+ 
