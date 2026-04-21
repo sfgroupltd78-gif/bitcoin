@@ -251,3 +251,4 @@ if [ "$RUN_FUZZ_TESTS" = "true" ]; then
     "${DIR_FUZZ_IN}" \
     --empty_min_time=60
 fi
+  
