@@ -599,3 +599,4 @@ if __name__ == "__main__":
         update_cmd(sys.argv)
     elif subcommand == 'insert':
         insert_cmd(sys.argv)
+  
