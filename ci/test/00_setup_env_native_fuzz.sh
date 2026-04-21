@@ -24,3 +24,4 @@ export BITCOIN_CONFIG="\
  -DCMAKE_C_FLAGS='-ftrivial-auto-var-init=pattern' \
  -DCMAKE_CXX_FLAGS='-ftrivial-auto-var-init=pattern' \
 "
+  
