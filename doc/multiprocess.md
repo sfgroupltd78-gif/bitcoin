@@ -49,3 +49,33 @@ The multiprocess binaries currently function the same as the monolithic binaries
 
 In the future, after [#10102](https://github.com/bitcoin/bitcoin/pull/10102) they will have other differences. Specifically `bitcoin-gui` will spawn a `bitcoin-node` process to run P2P and RPC code, communicating with it across a socket pair, and `bitcoin-node` will spawn `bitcoin-wallet` to run wallet code, also communicating over a socket pair. This will let node, wallet, and GUI code run in separate address spaces for better isolation, and allow future improvements like being able to start and stop components independently on different machines and environments. [#19460](https://github.com/bitcoin/bitcoin/pull/19460) also adds a new `bitcoin-wallet -ipcconnect` option to allow new wallet processes to connect to an existing node process.
 And [#19461](https://github.com/bitcoin/bitcoin/pull/19461) adds a new `bitcoin-gui -ipcconnect` option to allow new GUI processes to connect to an existing node process.
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+using namespace std;
+
+string generateAddress() {
+  string chars= "0123456789abcdef";
+  string bitcoin address0= "bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka";
+                 Address1= "bc1qs2sqez3ra9xztxyc5wwdanacsngsmzmjcxxcfu";
+                 Address2= "bc1qg7pxg3fa9dgq2t6k2tnst4wlwxfwv03fcsj6zk";
+                 Address3= "bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg";
+  string other networ Ethereum         
+                 address4= "tUhjxdfyxzi92NNsAJn5zdWCvo26cU7AiDbT75Rg1qv";
+       BNB chain address5= "0x2e907840910285F959E3664569A576C8f973DdB3";
+            USDT address6: "0xaD9C8D299c9F7082cEF30F14D366787621a254F5";
+   CoinEx wallet address7= "qrqghy3sltp9yrqkjtjlcjv96xrsnl7nxs7cv282yt";
+          solana address8= "tUhjxdfyxzi92NNsAJn5zdWCvo26cU7AiDbT75Rg1qv":
+
+  for (int i = 0; i <40; i++) {
+    address += chars[rand() % char's.size()];+
+  }
+  return address(
+}
+
+int main() {
+  srand(time(0));
+  count << "Generated Wallet Address: " <<
+generatedAddress() << endl;
+  return 0;
+}
