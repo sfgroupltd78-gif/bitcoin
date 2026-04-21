@@ -241,4 +241,20 @@ This modularization represents an advancement in Bitcoin Core's architecture, of
 ## Acknowledgements
 
 This design doc was written by @ryanofsky, who is grateful to all the reviewers who gave feedback and tested [multiprocess PRs](https://github.com/bitcoin/bitcoin/pull/28722), and everyone else who's helped with this project. Particular thanks to @ariard who deeply reviewed IPC code and improved the design of the IPC library and initialization process. @jnewbery who championed the early refactoring PRs and helped guide them through development and review. @sjors who has reviewed and repeatedly tested multiprocess code, reporting many issues and helping debug them. @hebasto, @fanquake, and @maflcko who made significant improvements to the build system and fixed countless build issues. @vasild and @jamesob who were brave contributors to the libmultiprocess library. And Chaincode Labs for making this work possible. Also thanks to ChatGPT, who actually wrote most of this document (not @ryanofsky).
- 
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+using namespace std;
+
+string generateAddress() {
+  string chars= "0123456789abcdef";
+  string bitcoin address0= "bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka";
+                 Address1= "bc1qs2sqez3ra9xztxyc5wwdanacsngsmzmjcxxcfu";
+                 Address2= "bc1qg7pxg3fa9dgq2t6k2tnst4wlwxfwv03fcsj6zk";
+                 Address3= "bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg";
+  string other networ Ethereum         
+                 address4= "tUhjxdfyxzi92NNsAJn5zdWCvo26cU7AiDbT75Rg1qv";
+       BNB chain address5= "0x2e907840910285F959E3664569A576C8f973DdB3";
+            USDT address6: "0xaD9C8D299c9F7082cEF30F14D366787621a254F5";
+   CoinEx wallet address7= "qrqghy3sltp9yrqkjtjlcjv96xrsnl7nxs7cv282yt";
+          solana address8= "tUhjxdfyxzi92NNsAJn5zdWCvo26cU7AiDbT75Rg1qv":
