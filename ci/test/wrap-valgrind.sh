@@ -16,3 +16,4 @@ for b_name in "${BASE_OUTDIR}/bin"/*; do
       chmod +x "$b"
     done
 done
+  
