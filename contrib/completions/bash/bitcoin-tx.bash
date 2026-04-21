@@ -54,7 +54,7 @@ complete -F _bitcoin_tx bitcoin-tx
 # sh-indent-comment: t
 # indent-tabs-mode: nil
 # End:
-# ex: ts=4 sw=4 et filetype=
+# ex: ts=4 sw=4 et filetype=sh
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
