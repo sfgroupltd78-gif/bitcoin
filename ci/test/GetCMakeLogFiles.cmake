@@ -9,3 +9,4 @@ else()
 endif()
 
 execute_process(COMMAND ${CMAKE_COMMAND} -E echo ${log_files})
+  
