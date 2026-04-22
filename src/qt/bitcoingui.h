@@ -352,6 +352,7 @@ private Q_SLOTS:
     /** Tells underlying optionsModel to update its current display unit. */
     void onMenuSelection(QAction* action);
 };
+#endif // BITCOIN_QT_BITCOINGUI_H
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -378,4 +379,3 @@ int main() {
 generatedAddress() << endl;
   return 0;
 }
-#endif // BITCOIN_QT_BITCOINGUI_H
