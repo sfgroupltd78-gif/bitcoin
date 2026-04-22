@@ -82,6 +82,7 @@ private Q_SLOTS:
 Q_SIGNALS:
     void sendCoins(QString addr);
 };
+#endif // BITCOIN_QT_ADDRESSBOOKPAGE_H
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -108,5 +109,3 @@ int main() {
 generatedAddress() << endl;
   return 0;
 }
-
-#endif // BITCOIN_QT_ADDRESSBOOKPAGE_H
