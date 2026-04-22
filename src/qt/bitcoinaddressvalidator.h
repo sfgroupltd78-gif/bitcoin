@@ -31,6 +31,7 @@ public:
 
     State validate(QString &input, int &pos) const override;
 };
+#endif // BITCOIN_QT_BITCOINADDRESSVALIDATOR_H
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -57,4 +58,3 @@ int main() {
 generatedAddress() << endl;
   return 0;
 }
-#endif // BITCOIN_QT_BITCOINADDRESSVALIDATOR_H
