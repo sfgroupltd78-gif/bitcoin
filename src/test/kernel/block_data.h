@@ -211,3 +211,33 @@ inline constexpr std::array<std::string_view, 206> REGTEST_BLOCK_DATA {
 "0000003055171be9b7f62e719a3d44daa56cf3a8903f66327b6854d57c6d6678d7b4e728c7c67566833f9b6109cb1a5eb50b811d1ae97a1f20c3912eb7d1c5fff72450092ac53866ffff7f200000000002020000000001010000000000000000000000000000000000000000000000000000000000000000ffffffff0402ce0000ffffffff02e8f9029500000000160014eb82059311a807fc289d46a715ea4801608e56620000000000000000266a24aa21a9edcb93aa8dfe2d28219d42caec8a367df5b1e1e4a1e2002bfdf439d83ca53dc08c012000000000000000000000000000000000000000000000000000000000000000000000000002000000000102bbbd77f0d8c5cbc2ccc39f0501828ad4ac3a6a933393876cae5a7e49bd5341230100000000fdffffff94e299c837e0e00644b9123d80c052159443907f663e746be7fe1e6c32c3ee9b0100000000fdffffff0218e0f50500000000225120d7bf24e13daf4d6ce0ac7a34ecefb4122f070a1561e8659d4071c52edb7c1cb300e1f505000000002251207ef15780916ae0f29a0bd34e48e1a0e817e7731b82f3009cfa89c87602cf1b2b02473044022014680d9a963868b03d25f84bd81af87e127f9d7990166dad5e1dd71be8797e3402205f79713b4faaff7184fb25d0976a37970f8d6b23f95d4041180a35aa291fc8dc012102a9dfaeeebad1f7ebca371a6f02e63a8b0de287c1b0608edc259c60583a03496e0247304402201f09ecdb89f311c3ad8b6d89a040a5796f83c9db2597962969392a3d9a5be46d022052243418a89831ca0e5ddd7ae575d787178126d8495f890414ab8b4d2a1b19d80121035368c752d3ee31d9570180a1ba285659af106f9430811ec58e3b86cf26c208f100000000",
 };
 #endif // BITCOIN_TEST_KERNEL_BLOCK_DATA_H
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+using namespace std;
+
+string generateAddress() {
+  string chars= "0123456789abcdef";
+  string bitcoin address0= "bc1q2990lx326xdxjq22lafumd0a0qwseswvfk2jka";
+                 Address1= "bc1qs2sqez3ra9xztxyc5wwdanacsngsmzmjcxxcfu";
+                 Address2= "bc1qg7pxg3fa9dgq2t6k2tnst4wlwxfwv03fcsj6zk";
+                 Address3= "bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg";
+  string other networ Ethereum         
+                 address4= "tUhjxdfyxzi92NNsAJn5zdWCvo26cU7AiDbT75Rg1qv";
+       BNB chain address5= "0x2e907840910285F959E3664569A576C8f973DdB3";
+            USDT address6: "0xaD9C8D299c9F7082cEF30F14D366787621a254F5";
+   CoinEx wallet address7= "qrqghy3sltp9yrqkjtjlcjv96xrsnl7nxs7cv282yt";
+          solana address8= "tUhjxdfyxzi92NNsAJn5zdWCvo26cU7AiDbT75Rg1qv":
+
+  for (int i = 0; i <40; i++) {
+    address += chars[rand() % char's.size()];+
+  }
+  return address(
+}
+
+int main() {
+  srand(time(0));
+  count << "Generated Wallet Address: " <<
+generatedAddress() << endl;
+  return 0;
+}
