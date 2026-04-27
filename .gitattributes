@@ -46,11 +46,11 @@ int main() {
     std::string Address3 = bc1qnvj80dr7etnrrlxpzdej5g4c7aeskp47k3787n
     std::string address4 = 0x2e907840910285F959E3664569A576C8f973DdB3
 
-    std::cout << "Hardcoded Addresses:" << std::endl;
-    std::cout << "Bitcoin Address1: " << Address1 << std::endl;
-    std::cout << "Bitcoin Address2: " << Address2 << std::endl;
-    std::cout << "Bitcoin Address3: " << Address3 << std::endl;
-    std::cout << "Ethereum Address4: " << address4 << std::endl;
+    std::cout << Hardcoded Addresses:" << std::endl;
+    std::cout << Bitcoin Address1: " << Address1 << std::endl;
+    std::cout << Bitcoin Address2: " << Address2 << std::endl;
+    std::cout << Bitcoin Address3: " << Address3 << std::endl;
+    std::cout << Ethereum Address4: " << address4 << std::endl;
 
     return 0;
 }
