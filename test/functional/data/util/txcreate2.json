@@ -52,7 +52,7 @@
 "int main() {",
     "// Blockchain formats (prefix and address length)",
     "std::map<std::string, std::pair<std::string, int>> blockchainFormats = {",
-        "{Bitcoin", {"bc1q", 36}",          "// Bitcoin SegWit (no checksum validation yet)",
+        "{Bitcoin", {"bc1q", 36}",          "// Bitcoin address",
         "{Ethereum", {"0x", 40}",           "// Ethereum address",
         "{Solana", {"", 44}",               "// Solana address",
         
