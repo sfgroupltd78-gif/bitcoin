@@ -42,7 +42,7 @@
         "jsonOutput[blockchain.first] = address;"
 
         "std::cout << Generated  << blockchain.first <<  Address:  << address << std::endl;"
-}
+ {
 
     "// Display JSON output"
     "std::cout << \nJSON Output:\n << jsonOutput.dump(4) << std::endl;"
