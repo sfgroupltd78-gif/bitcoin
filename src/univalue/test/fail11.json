@@ -1,5 +1,5 @@
-{"Illegal expression": 1 + 2}
-#include <iostream>
+"{"Illegal expression": 1 + 2}"
+#"include <iostream>"
 #include <string>
 #include <random>
 #include <map>
