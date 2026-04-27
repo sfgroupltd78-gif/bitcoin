@@ -6,7 +6,7 @@
 "#include <nlohmann/json.hpp> // Include JSON library (https://github.com/nlohmann/json)"
 
 "std::string generateHex(int length) {"
-    "const std::string chars = 0123456789abcdef";
+    "const std::string chars = 0123456789abcdef; "
     "std::string result; "
     "std::random_device rd; "
     "std::mt19937 generator(rd()); "
