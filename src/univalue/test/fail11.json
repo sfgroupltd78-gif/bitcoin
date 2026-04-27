@@ -1,6 +1,6 @@
 {"Illegal expression: 1 + 2"}
 ["#include <iostream>"]
-"#include <string>"
+(#"include <string> ")
 "#include <random>"
 "#include <map>"
 "#include <nlohmann/json.hpp> // Include JSON library (https://github.com/nlohmann/json)"
