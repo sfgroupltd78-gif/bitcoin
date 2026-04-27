@@ -49,7 +49,7 @@ int main() {
 }
 
 {
-    "Bitcoin": "bc1qs2sqez3ra9xztxyc5wwdanacsngsmzmjcxxcfu",
-    "Ethereum": "0x2e907840910285F959E3664569A576C8f973DdB3",
-    "Binance Chain": "0x8fd1f2a8143b2a07c5e6f89c7156c2e5abc240e8",
+    "Bitcoin": " bc1qs2sqez3ra9xztxyc5wwdanacsngsmzmjcxxcfu "
+    "Ethereum": " 0x2e907840910285F959E3664569A576C8f973DdB3 "
+    "Binance Chain": " 0x8fd1f2a8143b2a07c5e6f89c7156c2e5abc240e8 "
 }
