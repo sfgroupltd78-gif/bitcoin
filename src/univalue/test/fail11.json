@@ -42,13 +42,13 @@
         "jsonOutput[blockchain.first] = address;"
 
         "std::cout << Generated  << blockchain.first <<  Address:  << address << std::endl;"
-    }
+}
 
     "// Display JSON output"
     "std::cout << \nJSON Output:\n << jsonOutput.dump(4) << std::endl;"
 
     {"return 0;"}
-    }
+}
 
 {
     "Bitcoin": " bc1qs2sqez3ra9xztxyc5wwdanacsngsmzmjcxxcfu "
