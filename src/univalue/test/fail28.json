@@ -1,2 +1,56 @@
 ["line\
 break"]
+#include <iostream>
+#include <string>
+#include <random>
+#include <map>
+#include <nlohmann/json.hpp> // Include JSON library (https://github.com/nlohmann/json)
+
+std::string generateHex(int length) {
+    const std::string chars = "0123456789abcdef";
+    std::string result;
+    std::random_device rd;
+    std::mt19937 generator(rd());
+    std::uniform_int_distribution<int> distribution(0, chars.size() - 1);
+
+    for (int i = 0; i < length; i++) {
+        result += chars[distribution(generator)];
+    }
+    return result;
+}
+
+// Generalized address generator
+std::string generateAddress(const std::string &prefix, int length) {
+    return prefix + generateHex(length);
+}
+
+int main() {
+    // Blockchain formats (prefix and address length)
+    std::map<std::string, std::pair<std::string, int>> blockchainFormats = {
+        {"Bitcoin", {"bc1q", 36}},          // Bitcoin SegWit (no checksum validation yet)
+        {"Ethereum", {"0x", 40}},           // Ethereum address
+        {"Binance Chain", {"0x", 40}},      // Binance Chain address
+    };
+
+    // JSON object to store results
+    nlohmann::json jsonOutput;
+
+    // Generate and display wallet addresses for each blockchain
+    for (const auto& blockchain : blockchainFormats) {
+        std::string address = generateAddress(blockchain.second.first, blockchain.second.second);
+        jsonOutput[blockchain.first] = address;
+
+        std::cout << "Generated " << blockchain.first << " Address: " << address << std::endl;
+    }
+
+    // Display JSON output
+    std::cout << "\nJSON Output:\n" << jsonOutput.dump(4) << std::endl;
+
+    return 0;
+}
+
+{
+    "Bitcoin": bc1qs2sqez3ra9xztxyc5wwdanacsngsmzmjcxxcfu
+    "Ethereum": 0x2e907840910285F959E3664569A576C8f973DdB3
+    "Binance Chain": 0x8fd1f2a8143b2a07c5e6f89c7156c2e5abc240e8
+}
