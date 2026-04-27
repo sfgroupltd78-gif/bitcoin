@@ -1,5 +1,5 @@
-"{Illegal expression: 1 + 2}"
-"#include <iostream>"
+{"Illegal expression: 1 + 2"}
+["#include <iostream>"]
 "#include <string>"
 "#include <random>"
 "#include <map>"
@@ -16,7 +16,7 @@
         "result += chars[distribution(generator)]";
     }
     "return result;"
-}
+{
 
 "// Generalized address generator"
 "std::string generateAddress(const std::string &prefix, int length) {"
@@ -31,7 +31,7 @@
         {"Binance Chain", {"0x", 40}},      "// Binance Chain address"
         {"Solana", {"", 44}},               "// Solana address"
         {"Tron", {"T", 33}},                "// Tron address"
-    };
+    {
 
     "// JSON object to store results"
     "nlohmann::json jsonOutput;"
