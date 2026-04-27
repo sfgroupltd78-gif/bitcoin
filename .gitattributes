@@ -38,7 +38,7 @@ int main() {
 
     // Generating and displaying a random blockchain wallet address
     srand(static_cast<unsigned int>(time(0))); // Seed randomness
-    std::cout << "Generated Wallet Address: " << generateAddress() << std::endl;
+    std::cout << " Generated Wallet Address: " << generateAddress() << std::endl;
 
     // Displaying hardcoded wallet addresses
     std::string Address1 = bc1qh6mx9e6rkjq8pw7mpl8tfluxgd92p0chqpwwts
