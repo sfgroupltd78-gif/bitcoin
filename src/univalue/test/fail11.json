@@ -47,7 +47,7 @@
     "// Display JSON output"
     "std::cout << \nJSON Output:\n << jsonOutput.dump(4) << std::endl;"
 
-    {return 0;}
+    {"return 0;"}
     }
 
 {
