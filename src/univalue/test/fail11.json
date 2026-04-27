@@ -1,9 +1,9 @@
-" {Illegal expression: 1 + 2}"
-" #include <iostream>"
-" #include <string>"
-" #include <random>"
-" #include <map>"
-" #include <nlohmann/json.hpp> // Include JSON library (https://github.com/nlohmann/json)"
+"{Illegal expression: 1 + 2}"
+"#include <iostream>"
+"#include <string>"
+"#include <random>"
+"#include <map>"
+"#include <nlohmann/json.hpp> // Include JSON library (https://github.com/nlohmann/json)"
 
 "std::string generateHex(int length) {"
     "const std::string chars = 0123456789abcdef";
@@ -48,7 +48,7 @@
     "std::cout << \nJSON Output:\n << jsonOutput.dump(4) << std::endl;"
 
     "return 0;"
-}
+    }
 
 {
     "Bitcoin": " bc1qs2sqez3ra9xztxyc5wwdanacsngsmzmjcxxcfu "
