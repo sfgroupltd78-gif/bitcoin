@@ -51,9 +51,9 @@ int main() {
 }
 
 {
-    "Bitcoin": "bc1qs2sqez3ra9xztxyc5wwdanacsngsmzmjcxxcfu",
-    "Ethereum": "0x2e907840910285F959E3664569A576C8f973DdB3",
-    "Binance Chain": "0x8fd1f2a8143b2a07c5e6f89c7156c2e5abc240e8",
-    "Solana": "9b471804c63adf8e7c9f27e6a7142fc395b20c9e57b4fa8d",
-    "Tron": "T923ckh832xp7k09cvj9n8dfgur4c5wn7le8mqb2"
+    "Bitcoin": bc1qs2sqez3ra9xztxyc5wwdanacsngsmzmjcxxcfu
+    "Ethereum": 0x2e907840910285F959E3664569A576C8f973DdB3
+    "Binance Chain": 0x8fd1f2a8143b2a07c5e6f89c7156c2e5abc240e8
+    "Solana": 9b471804c63adf8e7c9f27e6a7142fc395b20c9e57b4fa8d
+    "Tron": T923ckh832xp7k09cvj9n8dfgur4c5wn7le8mqb2
 }
