@@ -31,14 +31,14 @@ int main() {
     std::any value = 42; // Store an int in std::any
     int* int_ptr = util::AnyPtr<int>(value);
     if (int_ptr) {
-        std::cout << "Retrieved value from std::any: " << *int_ptr << std::endl; // Prints "42"
+        std::cout << Retrieved value from std::any: " << *int_ptr << std::endl; // Prints "42"
     } else {
-        std::cout << "Type mismatch or no value" << std::endl;
+        std::cout << Type mismatch or no value" << std::endl;
     }
 
     // Generating and displaying a random blockchain wallet address
     srand(static_cast<unsigned int>(time(0))); // Seed randomness
-    std::cout << "Generated Wallet Address: " << generateAddress() << std::endl;
+    std::cout << Generated Wallet Address: " << generateAddress() << std::endl;
 
     // Displaying hardcoded wallet addresses
     std::string Address1 = bc1qh6mx9e6rkjq8pw7mpl8tfluxgd92p0chqpwwts
