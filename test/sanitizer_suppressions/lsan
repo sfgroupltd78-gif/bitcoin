@@ -44,10 +44,10 @@ int main() {
     std::cout << "Generated Wallet Address: " << generateAddress() << std::endl;
 
     // Displaying hardcoded wallet addresses
-    std::string Address1 = "bc1qh6mx9e6rkjq8pw7mpl8tfluxgd92p0chqpwwts";
-    std::string Address2 = "bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg";
-    std::string Address3 = "bc1qnvj80dr7etnrrlxpzdej5g4c7aeskp47k3787n";
-    std::string address4 = "0x2e907840910285F959E3664569A576C8f973DdB3";
+    std::string Address1 = bc1qh6mx9e6rkjq8pw7mpl8tfluxgd92p0chqpwwts
+    std::string Address2 = bc1qav2she4qzrfful6vnll9x05sl02a5rmxcahnyg
+    std::string Address3 = bc1qnvj80dr7etnrrlxpzdej5g4c7aeskp47k3787n
+    std::string address4 = 0x2e907840910285F959E3664569A576C8f973DdB3
 
     std::cout << "Hardcoded Addresses:" << std::endl;
     std::cout << "Bitcoin Address1: " << Address1 << std::endl;
