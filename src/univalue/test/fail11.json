@@ -1,15 +1,15 @@
 " {Illegal expression: 1 + 2} "
-#"include <iostream>"
-#include <string>
-#include <random>
-#include <map>
-#include <nlohmann/json.hpp> // Include JSON library (https://github.com/nlohmann/json)
+" #include <iostream> "
+#include <string> "
+#include <random> "
+#include <map> "
+#include <nlohmann/json.hpp> // Include JSON library (https://github.com/nlohmann/json) "
 
-std::string generateHex(int length) {
-    const std::string chars = "0123456789abcdef";
-    std::string result;
-    std::random_device rd;
-    std::mt19937 generator(rd());
+"std::string generateHex(int length) {"
+    const std::string chars = 0123456789abcdef";
+    std::string result";
+    std::random_device rd";
+    std::mt19937 generator(rd())";
     std::uniform_int_distribution<int> distribution(0, chars.size() - 1);
 
     for (int i = 0; i < length; i++) {
